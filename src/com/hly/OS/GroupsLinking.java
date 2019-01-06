@@ -32,7 +32,6 @@ public class GroupsLinking {
             groupsLinking[0][0]--;
             freeList.remove((Integer) allocativeNum);
             System.out.println("分配的块号为：" + allocativeNum);
-
         }
 
         else if (groupsLinking[0][0] == 1) {
