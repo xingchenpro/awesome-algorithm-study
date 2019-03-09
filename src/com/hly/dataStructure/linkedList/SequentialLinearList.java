@@ -8,83 +8,98 @@ import java.util.Arrays;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/3/8
  */
-//çº¿æ€§è¡¨é¡ºåºå­˜å‚¨
+//ÏßĞÔ±íË³Ğò´æ´¢
 public class SequentialLinearList<E> {
 
-    //çº¿æ€§è¡¨å­˜å‚¨ç©ºé—´
+    //ÏßĞÔ±í´æ´¢¿Õ¼ä
     private Object[] listElem;
-    //çº¿æ€§è¡¨é•¿åº¦
+    //ÏßĞÔ±í³¤¶È
     private int len;
 
-    //åˆå§‹åŒ–çº¿æ€§è¡¨çš„å¤§å°
+    //³õÊ¼»¯ÏßĞÔ±íµÄ´óĞ¡
     public SequentialLinearList(int maxLen) {
         len = 0;
         listElem = new Object[maxLen];
     }
-    //å°†çº¿æ€§è¡¨ç½®ç©º
-    public void clear(){
+
+    //½«ÏßĞÔ±íÖÃ¿Õ
+    public void clear() {
         len = 0;
     }
-    //åˆ¤æ–­çº¿æ€§è¡¨æ˜¯å¦ä¸ºç©º
-    public boolean isEmpty(){
+
+    //ÅĞ¶ÏÏßĞÔ±íÊÇ·ñÎª¿Õ
+    public boolean isEmpty() {
         return len == 0;
     }
-    //è¿”å›çº¿æ€§è¡¨ä¸­å…ƒç´ çš„ä¸ªæ•°
-    public int length(){
+
+    //·µ»ØÏßĞÔ±íÖĞÔªËØµÄ¸öÊı
+    public int length() {
         return len;
     }
 
-    //è¿”å›çº¿æ€§è¡¨ä¸­ç¬¬ i ä¸ªæ•°æ®
+    //·µ»ØÏßĞÔ±íÖĞµÚ i ¸öÊı¾İ
     public E get(int i) throws Exception {
-        if(i<0||i>=len)
-            throw new Exception("æŸ¥æ‰¾èŒƒå›´ä¸æ­£ç¡®,ç¬¬"+i+"ä¸ªå…ƒç´ ä¸å­˜åœ¨");
-        return (E)listElem[i];
+        if (i < 0 || i >= len)
+            throw new Exception("²éÕÒ·¶Î§²»ÕıÈ·,µÚ" + i + "¸öÔªËØ²»´æÔÚ");
+        return (E) listElem[i];
     }
 
-    //åœ¨ç¬¬ i ä¸ªæ•°æ®ä¹‹å‰æ’å…¥æ•°æ®
-    public void insert(int i,E e) throws Exception {
-        if(i<0||i>=len)
-            throw new Exception("æ’å…¥èŒƒå›´ä¸æ­£ç¡®,ç¬¬"+i+"ä¸ªå…ƒç´ ä¸å­˜åœ¨");
-        //è‹¥çº¿æ€§è¡¨å·²æ»¡ï¼Œåˆ™æ‰©å®¹ä¸€å€
-        if(len == listElem.length)
-            listElem =  Arrays.copyOf(listElem,2*listElem.length);
-        //æ•°æ®åç§»ä¸€ä½ï¼Œè®©j=iæ—¶æŒ‘å‡ºï¼Œå°†æ•°æ®æ’å…¥i
-        for(int j=len;j>i;j--)
-            listElem[j] = listElem[j-1];
+    //ÔÚµÚ i ¸öÊı¾İÖ®Ç°²åÈëÊı¾İ
+    public void insert(int i, E e) throws Exception {
+        if (i < 0 || i > len)
+            throw new Exception("²åÈë·¶Î§²»ÕıÈ·,µÚ" + i + "¸öÔªËØ²»´æÔÚ");
+        //ÈôÏßĞÔ±íÒÑÂú£¬ÔòÀ©ÈİÒ»±¶
+        if (len == listElem.length)
+            listElem = Arrays.copyOf(listElem, 2 * listElem.length);
+        //Êı¾İºóÒÆÒ»Î»£¬ÈÃj=iÊ±Ìô³ö£¬½«Êı¾İ²åÈëi
+        for (int j = len; j > i; j--)
+            listElem[j] = listElem[j - 1];
         listElem[i] = e;
         len++;
     }
 
-    //åˆ é™¤å¹¶è¿”å›çº¿æ€§è¡¨ä¸­ç¬¬ i ä¸ªæ•°æ®
+    //É¾³ı²¢·µ»ØÏßĞÔ±íÖĞµÚ i ¸öÊı¾İ
     public E remove(int i) throws Exception {
-        if(i<0||i>=len)
-        throw new Exception("åˆ é™¤èŒƒå›´ä¸æ­£ç¡®,ç¬¬"+i+"ä¸ªå…ƒç´ ä¸å­˜åœ¨");
-        E e = (E)listElem[i];
-        //j=len-1 æ—¶è·³å‡ºå¾ªç¯ï¼Œæœ€åä¸€æ­¥ä¸º listElem[len-2] = listElem[len-1]
-        for(int j = i;j<len-1;j++)
-            listElem[j] = listElem[j+1];
+        if (i < 0 || i >= len)
+            throw new Exception("É¾³ı·¶Î§²»ÕıÈ·,µÚ" + i + "¸öÔªËØ²»´æÔÚ");
+        E e = (E) listElem[i];
+        //j=len-1 Ê±Ìø³öÑ­»·£¬×îºóÒ»²½Îª listElem[len-2] = listElem[len-1]
+        for (int j = i; j < len - 1; j++)
+            listElem[j] = listElem[j + 1];
         len--;
         return e;
     }
 
-    //è¿”å›çº¿æ€§è¡¨ä¸­æ•°æ®å…ƒç´ çš„ä½åºå·ï¼Œè‹¥çº¿æ€§è¡¨ä¸­ä¸åŒ…å«è¿”å›-1
-    public int indexOf(E e){
-        for(int i =0 ;i<len;i++){
-            if(listElem[i].equals(e)){
+    //·µ»ØÏßĞÔ±íÖĞÊı¾İÔªËØµÄÎ»ĞòºÅ£¬ÈôÏßĞÔ±íÖĞ²»°üº¬·µ»Ø-1
+    public int indexOf(E e) {
+        for (int i = 0; i < len; i++) {
+            if (listElem[i].equals(e)) {
                 return i;
             }
         }
         return -1;
     }
 
-    //è¾“å‡ºçº¿æ€§è¡¨ä¸­çš„å…ƒç´ 
-    public void display(){
-        for(int i = 0;i<len;i++)
-            System.out.println(listElem[i]);
+    //Êä³öÏßĞÔ±íÖĞµÄÔªËØ
+    public void display() {
+        for (int i = 0; i < len; i++)
+            System.out.print(listElem[i] + " ");
+        System.out.println();
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception {
+        SequentialLinearList<Character> list = new SequentialLinearList<>(3);
+        list.insert(0, 'a');
+        list.insert(1, 'b');
+        list.insert(2, 'c');
+        list.remove(2);
+        list.display();
+        list.get(1);
+        System.out.println(list.indexOf('a'));
+        list.insert(2,'c');
+        list.insert(3,'d');
+        System.out.println(list.length());
+        System.out.println(list.listElem.length);
 
     }
-
 }
