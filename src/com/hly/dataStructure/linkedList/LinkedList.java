@@ -32,12 +32,12 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
     }
 
     //头指针
-    private Node<AnyType> head;
+    private Node<AnyType> head; //头指针
     private int size;
 
     public LinkedList() {
         size = 0;
-        head = new Node<>();
+        head = new Node<>();//初始化头结点
     }
 
     public LinkedList(Node<AnyType> head, int size) {
@@ -63,7 +63,7 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
     //求单链表的长度
     public int length(){
         int length = 0;
-        Node<AnyType> p = head.next;
+        Node<AnyType> p = head.next;//从首节点开始计数
         while(p!=null){
             p = p.next;
             length ++ ;
@@ -90,7 +90,7 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
     //在单链表中第i个节点前插入一个新的值
     public void add(int i,AnyType data) throws Exception {
         int j = -1;
-        Node<AnyType> p = head;
+        Node<AnyType> p = head;//p为头结点
         //找到 i 的前驱节点 p
         while(j<i-1&&p!=null){
             p = p.next;
@@ -101,7 +101,6 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
         Node<AnyType> s = new Node<>(data);
         s.next = p.next;
         p.next = s;
-
     }
 
     //删除单链表中第 i 个节点,返回该节点
@@ -135,14 +134,13 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
 
     //输出所有的节点
     public void display(){
-        Node<AnyType> p = head.next;
+        Node<AnyType> p = head.next;//取出带头结点的首节点
         while(p!=null){
             System.out.print(p.data+" ");
             p = p.next;
         }
         System.out.println();
     }
-
 
     //Test
     public static void main(String[] args) throws Exception {
@@ -155,12 +153,11 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
         list.display();
         //单链表的长度
         System.out.println("单链表的长度："+list.length());
-        //删除元素
-        System.out.println("删除元素："+list.remove(0));
         //查找值为 x 的节点
-        list.display();
         System.out.println("查找值为 x 的节点："+list.indexOf(2));
-
+        //删除元素
+        System.out.println("删除元素："+list.remove(2));
+        list.display();
     }
 }
 

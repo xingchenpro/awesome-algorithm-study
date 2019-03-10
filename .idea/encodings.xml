@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/com/hly/bloom/BloomFilter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedList.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedListWithoutHead.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/SequentialLinearList.java" charset="GBK" />
   </component>
 </project>

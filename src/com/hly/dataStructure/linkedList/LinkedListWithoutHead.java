@@ -7,6 +7,173 @@ package com.hly.dataStructure.linkedList;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/3/9
  */
-//ä¸å¸¦å¤´ç»“ç‚¹çš„å•é“¾è¡¨
-public class LinkedListWithoutHead {
+//²»´øÍ·½áµãµÄµ¥Á´±í
+public class LinkedListWithoutHead<AnyType extends Comparable<? super AnyType>> {
+
+    //¶¨Òå½Úµã
+    private static class Node<AnyType> {
+
+        private Node<AnyType> next;
+        private AnyType data;
+
+        public Node() {
+            this(null, null);
+        }
+
+        public Node(AnyType data) {
+            this.data = data;
+        }
+
+        public Node(Node<AnyType> head, AnyType data) {
+            this.next = head;
+            this.data = data;
+        }
+    }
+
+    private Node<AnyType> head;//Í·Ö¸Õë
+    private int size;
+
+    public LinkedListWithoutHead(Node<AnyType> head, int size) {
+        this.head = head;
+        this.size = size;
+    }
+
+    public LinkedListWithoutHead() {
+        this(null, 0);
+    }
+
+    //·µ»Øµ¥Á´±íµÄ´óĞ¡
+    public int size() {
+        return size;
+    }
+
+    //·µ»Øµ¥Á´±íµÄ³¤¶È
+    public int length() {
+        int j = 0;
+        Node<AnyType> p = head;
+        if (head == null)//Í·Ö¸ÕëÎª¿Õ£¬Ôò³¤¶ÈÎª 0
+            return 0;
+        while (p != null) {
+            p = p.next;
+            j++;
+        }
+        return j;
+    }
+
+    //·µ»Øµ¥Á´±íµÄÎ»ÖÃ
+    public int indexOf(AnyType x) {
+        int j = 0;
+        Node<AnyType> p = head;
+        while (p != null && !p.data.equals(x)) {
+            p = p.next;
+            j++;
+        }
+        if (p != null)
+            return j;
+        return -1;
+    }
+
+    //·µ»ØµÚ i ¸ö½Úµã
+    public AnyType get(int i) throws Exception {
+        Node<AnyType> p = head;
+        int j = 0;
+        while (j < i && p != null) {
+            p = p.next;
+            j++;
+        }
+        if (j > i || p == null)
+            throw new Exception("²éÕÒÎ»ÖÃ²»ºÏ·¨");
+        return p.data;
+    }
+
+    //²åÈë½Úµã
+    public void add(int i, AnyType x) throws Exception {
+        Node<AnyType> p = head;
+        int j = 0;
+        while (j < i - 1 && p != null) {
+            p = p.next;
+            j++;
+        }
+        if (j > i && p == null)
+            throw new Exception("²åÈëÎ»ÖÃ²»ºÏ·¨!");
+        Node<AnyType> s = new Node<>(x);
+        //²åÈëµÄÎ»ÖÃÎª±íÍ·Ê±
+        if (i == 0) {
+            s.next = head;
+            head = s;
+            size++;
+        } else {
+            s.next = p.next;
+            p.next = s;
+            size++;
+        }
+    }
+
+    //É¾³ı²¢·µ»Ø½Úµã
+    public AnyType remove(int i) throws Exception {
+        Node<AnyType> p = head;
+        int j = 0;
+        while (j < i - 1 && p != null) {
+            p = p.next;
+            j++;
+        }
+        if (j > i || p == null)
+            throw new Exception("É¾³ıÎ»ÖÃ²»ºÏ·¨");
+        Node<AnyType> node;
+        //Èç¹ûÉ¾³ıµÄÊÇÊ×½Úµã
+        if (i == 0) {
+            node = head;
+            head = head.next;
+        } else {
+            node = p.next;
+            p.next = p.next.next;
+            size--;
+        }
+        p.next = p.next.next;
+        size--;
+        return node.data;
+    }
+
+    //Êä³öËùÓĞ½Úµã
+    public void display() {
+        Node<AnyType> p = head;//´ÓÍ·Ö¸ÕëÖ¸ÏòµÄµÚÒ»¸ö½Úµã¿ªÊ¼
+        while (p != null) {
+            System.out.print(p.data + " ");
+            p = p.next;
+        }
+        System.out.println();
+    }
+
+    //µ¥Á´±í¾ÍµØÄæÖÃ
+    public Node<AnyType> reverse() {
+        Node<AnyType> p = head;
+        head = null;
+        while (p != null) {
+            Node<AnyType> q = p.next;
+            p.next = head;
+            head = p;
+            p = q;
+        }///
+        return head;
+    }
+
+    public static void main(String[] args) throws Exception {
+
+        LinkedListWithoutHead<Integer> list = new LinkedListWithoutHead<>();
+        //Ìí¼ÓÊı¾İ
+        for (int i = 0; i < 3; i++)
+            list.add(list.length(), i);
+        list.display();
+
+        //µ¥Á´±íµÄ³¤¶È
+        System.out.println("µ¥Á´±íµÄ³¤¶È£º" + list.length());
+        //²éÕÒÖµÎª x µÄ½Úµã
+        System.out.println("²éÕÒÖµÎª x µÄ½Úµã£º"+list.indexOf(2));
+        //¾ÍµØÄæÖÃ
+        list.reverse();
+        list.display();
+        //É¾³ıÔªËØ
+        System.out.println("É¾³ıµÚi¸öÔªËØ£º" + list.remove(0));
+        list.display();
+    }
 }
