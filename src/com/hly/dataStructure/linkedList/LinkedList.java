@@ -149,7 +149,6 @@ public class LinkedList<AnyType extends Comparable<? super AnyType>> {
         //添加数据
         for(int i=0;i<3;i++)
             list.add(list.length(),i);
-        //输第 i 个元素
         list.display();
         //单链表的长度
         System.out.println("单链表的长度："+list.length());
