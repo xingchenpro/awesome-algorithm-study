@@ -107,7 +107,7 @@ public class LinkedListOfDuplex<AnyType extends Comparable<? super AnyType>> {
             p = p.next;
             j++;
         }
-        if (j != i && p != head)
+        if (j != i )
             throw new Exception("插入位置不合法");
         Node<AnyType> s = new Node<>(x);
         p.prior.next = s;
@@ -156,6 +156,7 @@ public class LinkedListOfDuplex<AnyType extends Comparable<? super AnyType>> {
         //输出第 i 个元素，第 0 个开始
         System.out.println("输出第 i 个元素：" + list.get(2));
         list.reverse();
+        list.add(6,9);
         list.display();
         //删除元素
         System.out.println("删除元素：" + list.remove(2));
