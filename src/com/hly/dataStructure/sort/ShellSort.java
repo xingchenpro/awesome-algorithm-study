@@ -11,7 +11,6 @@ package com.hly.dataStructure.sort;
 public class ShellSort {
 
     public static void shellSort(int[] arrays, int d[]) {
-
         int i, j, temp;
         for (int k = 0; k < d.length; k++) {
             int dk = d[k];
@@ -28,7 +27,7 @@ public class ShellSort {
     }
     public static void main(String[] args) {
 
-        int a[] = {3, 4, 1, 2, 5, 7, 6, 9, 8};
+        int a[] = {52, 39, 67, 95, 70, 8, 25, 52, 56,5};
         int d[] = {5, 3, 1};
         shellSort(a,d);
         for (int i:a)

@@ -25,7 +25,6 @@ public class InsertSort {
     }
 
     public static void main(String[] args){
-
         int a [] = {2,4,1,3,5};
         insertSort(a);
         for(int i:a)
