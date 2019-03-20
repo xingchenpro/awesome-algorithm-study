@@ -20,7 +20,6 @@ public class IsValid {
         map.put(')', '(');
         map.put('}', '{');
         map.put(']', '[');
-
     }
 
     public boolean isValid(String s) {

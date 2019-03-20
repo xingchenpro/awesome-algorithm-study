@@ -10,7 +10,6 @@ package com.hly.leeCode;
 //70.爬楼梯
 public class ClimbStairs {
 
-
     public static int climbStairs(int n) {
         if(n==1||n==2)
             return n;
