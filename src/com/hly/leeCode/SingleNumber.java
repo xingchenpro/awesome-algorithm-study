@@ -31,8 +31,5 @@ public class SingleNumber {
         SingleNumber singleNumber = new SingleNumber();
         System.out.println(singleNumber.singleNumber(nums));
         System.out.println(singleNumber.singleNumber(nums2));
-
     }
-
-
 }
