@@ -1,8 +1,6 @@
 package com.hly.leeCode;
 
 import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author :hly
  * @github :https://github.com/huangliangyun
@@ -13,10 +11,29 @@ import java.util.Map;
 //todo 205. 同构字符串
 public class IsIsomorphic {
 
-
+    //a b a ,b a a
+    //a c v ,b b v
     public static boolean isIsomorphic(String s, String t) {
 
-        Map<Character, Integer> sMap = new HashMap<>();
+        if (s.length() != t.length())
+            return false;
+        HashMap<Character, Character> map = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            if (!map.containsKey(s.charAt(i))) {
+                if (map.containsValue(t.charAt(i))) {
+                    return false;
+                }
+                map.put(s.charAt(i), t.charAt(i));
+            } else {
+                if (map.get(s.charAt(i)) != t.charAt(i)){
+                    return false;
+                }
+            }
+        }
+        return true;
+
+
+        /*Map<Character, Integer> sMap = new HashMap<>();
         Map<Character, Integer> tMap = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             char c1 = s.charAt(i);
@@ -34,14 +51,12 @@ public class IsIsomorphic {
             if (sMap.get(c1) != tMap.get(c2))
                 return false;
         }
-        return true;
+        return true;*/
     }
-
 
     public static void main(String[] args) {
 
         System.out.println(isIsomorphic("cvv", "abb"));
         System.out.println(isIsomorphic("cvv", "vvb"));
-
     }
 }
