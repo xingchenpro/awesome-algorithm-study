@@ -34,7 +34,6 @@ public class ReverseVowels {
             if (!set.contains(arr[end]) && start < end)
                 end--;
         }
-
         return new String(arr);
     }
 

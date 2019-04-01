@@ -25,7 +25,5 @@ public class HammingWeight {
 
     public static void main(String[] args){
         System.out.println(hammingWeight(00000000000000000000000000001011));
-
-
     }
 }
