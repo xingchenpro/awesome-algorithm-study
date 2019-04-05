@@ -14,7 +14,6 @@ import java.util.Set;
  */
 //349. 两个数组的交集
 public class Intersection {
-
     //1.第三个数组的大小确定
     //2.重复元素
     public static int[] intersection(int[] nums1, int[] nums2) {
@@ -38,12 +37,12 @@ public class Intersection {
         return nums;
     }
 
+
     public static void main(String[] args){
         int nums1 [] ={1,2,2,1};
         int nums2 [] ={2,2};
         int nums[] = intersection(nums1,nums2);
         for(int i:nums)
             System.out.print(i+" ");
-
     }
 }
