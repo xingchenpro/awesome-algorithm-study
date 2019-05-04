@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithms/MaxCrossingSubarray.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/bloom/BloomFilter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedListOfDuplex.java" charset="GBK" />
