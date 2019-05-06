@@ -11,7 +11,7 @@ import java.util.List;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/5/5
  */
-//todo 字符串中的第一个唯一字符
+//AC 字符串中的第一个唯一字符
 public class FirstUniqChar {
     public static int firstUniqChar(String s) {
         if(s.trim().equals(""))

@@ -1,4 +1,4 @@
-package com.hly.algorithms;
+package com.hly.algorithms.experience1;
 import java.io.*;
 /**
  * @author :╩фа╪тк
