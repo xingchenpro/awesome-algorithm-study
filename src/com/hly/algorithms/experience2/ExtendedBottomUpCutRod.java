@@ -21,7 +21,7 @@ public class ExtendedBottomUpCutRod {
         int r[] = new int[n+1];
 
         r[0]=0;
-        //获得第j次的最优解
+        //长度为j的最优解
         for (int j = 1; j <= n; j++) {
             int q = Integer.MIN_VALUE;
             //第i次的所有解
@@ -29,7 +29,7 @@ public class ExtendedBottomUpCutRod {
                 //取第i次所有解的最大值
                 if(q<p[i]+r[j-i]){
                     q=p[i]+r[j-i];
-                    s[j]=i;//第一段钢条的切割长度
+                    s[j]=i;//长度为j最优解中第一段钢条的切割长度
                 }
             }
             //记录最优解
