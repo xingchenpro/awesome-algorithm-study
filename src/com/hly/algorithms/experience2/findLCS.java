@@ -1,8 +1,5 @@
 package com.hly.algorithms.experience2;
 
-import jdk.nashorn.internal.objects.NativeUint8Array;
-import org.w3c.dom.ls.LSException;
-
 import java.io.*;
 
 /**
@@ -13,10 +10,11 @@ import java.io.*;
  * @date :2019/5/1
  */
 public class findLCS {
-    public static String result="";
 
-
-    //'¨I''¡ü''¡û'
+    public static String result = "";
+    //'¨I'
+    // '¡ü'
+    // '¡û'
     public static int[][] findLCS(String x, String y) {
         int m = x.length();
         int n = y.length();
@@ -32,7 +30,7 @@ public class findLCS {
                 if (x.charAt(i) == y.charAt(j)) {
                     c[i][j] = c[i - 1][j - 1] + 1;
                     b[i][j] = '¨I';
-                } else if (c[i - 1][j] > c[i][j - 1]) {
+                } else if (c[i - 1][j] >c[i][j - 1]) {
                     c[i][j] = c[i - 1][j];
                     b[i][j] = '¡ü';
                 } else {
@@ -40,20 +38,21 @@ public class findLCS {
                     b[i][j] = '¡û';
                 }
         return b;
+
     }
 
-    public static void LCS(int b[][], String x, int i, int j) {
-        if (i == 0 || j == 0)
-            return ;
-        if (b[i][j] == '¨I') {
-            LCS(b, x, i - 1, j - 1);
-            result += x.charAt(i);
-            System.out.print(x.charAt(i));
-        } else if (b[i][j] == '¡ü')
-            LCS(b, x, i - 1, j);
+    public static void LCS(int b[][],String x,int i,int j){
+        if(i==0||j==0)
+            return;
+        if(b[i][j]=='¨I'){
+            LCS(b,x,i-1,j-1);
+            System.out.print(x.charAt(i)+" ");
+            result+=x.charAt(i);
+        }
+        else if(b[i][j]== '¡ü')
+            LCS(b,x,i-1,j);
         else
-            LCS(b, x, i, j - 1);
-
+            LCS(b,x,i,j-1);
     }
 
     public static void main(String[] args) throws IOException {
@@ -78,5 +77,11 @@ public class findLCS {
         bufferedReader.close();
         fileWriter.close();
         bufferedWriter.close();
+        /*for(int k=1;k<b.length;k++) {
+            for (int l = 1; l < b[k].length; l++) {
+                System.out.print(String.valueOf(b[k][l]) + " ");
+            }
+            System.out.println();
+        }*/
     }
 }
