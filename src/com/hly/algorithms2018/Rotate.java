@@ -21,7 +21,7 @@ public class Rotate {
         }
         for(int i=0;i<n;i++) {
             nums[i] = x[i];
-            System.out.print(nums[i]);
+            //System.out.print(nums[i]);
         }
     }
 
@@ -31,3 +31,4 @@ public class Rotate {
         rotate(nums, 3);
     }
 }
+//赋值，下标i为0开始移动到(i+k)%n,
