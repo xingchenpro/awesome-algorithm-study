@@ -1,4 +1,4 @@
-package com.hly.tencent.arrayAndString;
+package com.hly.tencent;
 
 /**
  * @author :hly

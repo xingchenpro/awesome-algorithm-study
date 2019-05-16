@@ -1,5 +1,9 @@
 package com.hly.algorithms.experience2;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  * @author :hly
  * @github :https://github.com/huangliangyun
@@ -9,8 +13,17 @@ package com.hly.algorithms.experience2;
  */
 public class Matrix {
 
-    public static void main(String[] args) {
-        int []p = {30,35,15,5,10,20,25};
+    public static void main(String[] args) throws IOException {
+        FileWriter fileWriter = new FileWriter("d:/input.txt");
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        int p[]=new int [10];
+        for(int i=0;i<10;i++){
+            p[i] = (int)(Math.random()*30);
+            bufferedWriter.write(p[i]+" ");
+            System.out.print("p["+i+"]:"+p[i]+"  "+(i==9?"\n":""));
+        }
+        bufferedWriter.flush();
+        //int []p = {30,35,15,5,10,20,25};
         int [][]m = new int [p.length+1][p.length+1];
         int [][]s = new int [p.length+1][p.length+1];
         MatrixChain(p,m,s);
@@ -41,12 +54,12 @@ public class Matrix {
         if(i==j)
             System.out.print("A"+i);
         else if(i+1==j)
-            System.out.print(" (A"+i+" * "+" A"+j+") ");
+            System.out.print("(A"+i+" * "+" A"+j+")");
         else{
-            System.out.print(" (");
+            System.out.print("(");
             traceBack(s,i,s[i][j]);
             traceBack(s,s[i][j]+1,j);
-            System.out.print(") ");
+            System.out.print(")");
         }
     }
 
