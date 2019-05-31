@@ -1,4 +1,4 @@
-package com.hly.algorithms.experience2;
+package com.hly.algorithmsCourse.experience2;
 
 import java.io.*;
 

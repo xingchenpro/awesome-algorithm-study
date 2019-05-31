@@ -27,7 +27,6 @@ public class IsHappy {
                 map.put(sum,1);
             else
                 return false;
-
         }
         return true;
     }
@@ -35,6 +34,5 @@ public class IsHappy {
     public static void main(String[] args) {
         System.out.println(isHappy(19));
         System.out.println(isHappy(4));
-
     }
 }

@@ -21,7 +21,6 @@ public class ClimbStairs {
       }
       return fibonacci[n];
     }
-
     public static void main(String[] args){
         System.out.println( climbStairs(4));
 

@@ -50,7 +50,7 @@ public class arrayStack<E> {
     private void ensureCapacity(int size) {
         int len = stack.length;
         if (size > len) {
-            int newLen = 10;
+            int newLen = len*2;
             stack = Arrays.copyOf(stack, newLen);
         }
     }

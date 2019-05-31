@@ -11,20 +11,10 @@ package com.hly.dataStructure.sort;
 //快速排序(冒泡排序的改进算法，采用分治策略)
 public class QuickSort {
 
-
     public static void quickSort(int [] arrays){
 
-
-
     }
-
     public static void main(String[] args){
-
-
-
-
-
-
 
     }
 }
