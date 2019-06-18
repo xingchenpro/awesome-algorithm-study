@@ -1,4 +1,4 @@
-package com.hly.algorithmsCourse.experience1;
+package com.hly.algorithmsCourse.experiment1;
 import java.io.*;
 /**
  * @author :ª∆¡º‘À

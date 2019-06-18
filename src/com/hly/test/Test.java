@@ -1,5 +1,9 @@
 package com.hly.test;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 /**
  * @author :hly
  * @github :https://github.com/huangliangyun
@@ -12,8 +16,12 @@ package com.hly.test;
 public class Test {
 
     public static void main(String[] args){
-       int a =1 ,b=2;
-        System.out.println(a==2||b==2);
+        List list = new ArrayList();
+        list.add(1);
+        list.add(1);
+        list.add(2);
+        HashSet set = new HashSet(list);
+        set.forEach(s->System.out.println(s));
 
     }
 }

@@ -1,4 +1,4 @@
-package com.hly.algorithmsCourse.experience2;
+package com.hly.algorithmsCourse.experiment2;
 
 /**
  * @author :hly

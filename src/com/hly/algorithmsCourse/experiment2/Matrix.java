@@ -1,4 +1,4 @@
-package com.hly.algorithmsCourse.experience2;
+package com.hly.algorithmsCourse.experiment2;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
