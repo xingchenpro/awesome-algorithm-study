@@ -15,6 +15,7 @@ import java.nio.Buffer;
  * @desc :
  */
 public class MyFloyd {
+
     static String c[] = {"A", "B", "C", "D"};
     private static int[][] D;
     public final static int MAX = Integer.MAX_VALUE;
@@ -23,29 +24,13 @@ public class MyFloyd {
         this.D = D;
     }
 
-    /* public static void Floyd() {
-         int num = D.length;
-         for (int j = 0; j <num ; j++) {
-             for (int i = 0; i <num ; i++) {
-                 for (int k = 0; k <num ; k++) {
-                     if(D[i][j]<MAX&&D[j][k]<MAX&&D[i][j]+D[j][k]<D[i][k]){
-                         D[i][k]=D[i][j]+D[j][k];
-                     }
-                 }
-             }
-         }
-     }*/
     public static void Floyd() {
         int num = D.length;
-        for (int j = 0; j < num; j++) {
-            for (int i = 0; i < num; i++) {
-                for (int k = 0; k < num; k++) {
-                    if (D[i][j] < MAX && D[j][k] < MAX && D[i][j] + D[j][k] < D[i][k]) {
-                        D[i][k] = D[i][j] + D[j][k];
-                    }
-                }
-            }
-        }
+        for (int k = 0; k < num; k++)
+            for (int i = 0; i < num; i++)
+                for (int j = 0; j < num; j++)
+                    if(D[i][k]<MAX&&D[k][j]<MAX&&D[i][k]+D[k][j]<D[i][j])
+                        D[i][j]=D[i][k]+D[k][j];
     }
 
     public static void display() {
@@ -68,16 +53,17 @@ public class MyFloyd {
                 {9, 2, 8, 0}
         };
 
-        MyFloyd myFloyd =new MyFloyd(D);
+        MyFloyd myFloyd = new MyFloyd(D);
         Floyd();
         display();
         FileWriter fileWriter = new FileWriter("d:/output.txt");
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         for (int i = 0; i < myFloyd.D.length; i++) {
             for (int j = 0; j < myFloyd.D.length; j++) {
-                bufferedWriter.write(D[i][j] + " ");
+                bufferedWriter.write(c[i] + "到" + c[j] + "的最短路径为: " + D[i][j] + " ");
             }
-            bufferedWriter.flush();
+            bufferedWriter.write("\r\n");
         }
+        bufferedWriter.flush();
     }
 }

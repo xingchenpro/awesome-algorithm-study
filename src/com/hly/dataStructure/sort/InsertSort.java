@@ -11,19 +11,22 @@ package com.hly.dataStructure.sort;
 //直接插入排序
 public class InsertSort {
 
+    /**
+     *   平均        最快       最慢
+     *   O(n^2)      O(n)      O(N^2)
+     * @param arrays
+     */
     public static void insertSort(int [] arrays){
-        int j ,temp;
-        for(int i =1;i<arrays.length;i++){
-             temp = arrays[i];
-             j = i-1;
-             while (j>=0&&arrays[j]>temp){
-                 arrays[j+1] = arrays[j];
-                 j--;
-             }
-             arrays[j+1]= temp;
-        }
+       for(int j =1 ;j<arrays.length;j++){
+           int key = arrays[j];
+           int i = j-1;
+           while (i>=0&&arrays[i]>key){
+               arrays[i+1] = arrays[i];
+               i--;
+           }
+           arrays[i+1] = key;
+       }
     }
-
     public static void main(String[] args){
         int a [] = {2,4,1,3,5};//1 2 3 4 5
         insertSort(a);

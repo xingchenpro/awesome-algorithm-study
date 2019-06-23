@@ -10,23 +10,31 @@ package com.hly.dataStructure.sort;
 //冒泡排序(交换排序)
 public class BubbleSort {
 
+    /**
+     * 平均        最快       最慢
+     * O(n^2)      O(n)      O(n^2)
+     *
+     * @param arrays
+     */
+
     public static void bubbleSort(int arrays[]) {
         boolean flag = true;
         for (int i = 1; i < arrays.length; i++) {
-            flag = false;
+            flag = true;
             for (int j = 0; j < arrays.length - i; j++) {
                 if (arrays[j] > arrays[j + 1]) {
-                    int temp = arrays[j];
-                    arrays[j] = arrays[j + 1];
-                    arrays[j + 1] = temp;
-                    flag = true;
+                    arrays[j] = arrays[j] + arrays[j + 1];
+                    arrays[j + 1] = arrays[j] - arrays[j + 1];
+                    arrays[j] = arrays[j] - arrays[j + 1];
+                    flag = false;
                 }
             }
-            //如果为 false 说明没有发生交换，数组有序，直接退出。
-            if (flag == false)
+            if (flag) {
                 break;
+            }
         }
     }
+
     public static void main(String[] args) {
         int a[] = {5, 3, 1, 4, 2};
         bubbleSort(a);
