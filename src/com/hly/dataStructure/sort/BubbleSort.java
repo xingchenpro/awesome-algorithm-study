@@ -21,7 +21,7 @@ public class BubbleSort {
         boolean flag = true;
         for (int i = 1; i < arrays.length; i++) {
             flag = true;
-            for (int j = 0; j < arrays.length - i; j++) {
+            for (int j = 0; j < arrays.length - i; j++) {//j = 3,2,1
                 if (arrays[j] > arrays[j + 1]) {
                     arrays[j] = arrays[j] + arrays[j + 1];
                     arrays[j + 1] = arrays[j] - arrays[j + 1];
