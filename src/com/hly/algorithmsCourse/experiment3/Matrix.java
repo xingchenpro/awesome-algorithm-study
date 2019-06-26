@@ -35,10 +35,10 @@ public class Matrix {
     public static int[][] getPairsPath(int[][] matrix) {
         int n = matrix.length;
         int L[][] = matrix;
-        int m = 0; // m代表路径边数
+        int m = 1; // m代表路径边数
         while (m < n ) {
             L = getNewMatrix(L);
-            m++;
+            m*=2;
         }
         return  L;
     }
