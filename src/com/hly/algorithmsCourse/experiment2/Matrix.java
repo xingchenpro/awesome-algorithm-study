@@ -48,6 +48,8 @@ public class Matrix {
             }
         }
 
+
+
         //输出计算代价的矩阵m，其最终结果是矩阵m[0][m.length-1]
         System.out.println("该矩阵链的最小计算次数："+m[1][n]);
         for(int i=0; i <m.length; i++){
