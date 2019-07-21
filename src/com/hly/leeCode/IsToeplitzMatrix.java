@@ -1,4 +1,4 @@
-package com.hly.leetCode.easy;
+package com.hly.leeCode;
 
 /**
  * @author :hly
