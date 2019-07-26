@@ -7,7 +7,7 @@ package com.hly.algorithms2018.dp;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/7/21
  * @QQ :1136513099
- * @desc : 279. 完全平方数
+ * @desc : *279. 完全平方数
  */
 public class NumSquares {
 
@@ -27,7 +27,6 @@ public class NumSquares {
             }
             dp[i] =min;
         }
-
         return dp[n];
     }
 
