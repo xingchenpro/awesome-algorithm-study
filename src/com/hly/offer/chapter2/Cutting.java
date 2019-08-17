@@ -23,7 +23,7 @@ public class Cutting {
         int timesOf3 = length / 3;
         //当绳子最后剩下的长度为4的时候，不能再减去长度为3的生字段
         //此时最好的方法是把绳子剪成长度为2的绳子段
-        if (length - timesOf3 * 2 == 1)
+        if (length - timesOf3 * 3 == 1)
             timesOf3 -= 1;
         int timesOf2 = (length - timesOf3 * 3) / 2;
         return (int) (Math.pow(3, timesOf3) * Math.pow(2, timesOf2));

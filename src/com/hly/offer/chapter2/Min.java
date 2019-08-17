@@ -56,8 +56,8 @@ public class Min {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Min().min(new int[]{3, 4, 5, 1, 2}));
-        System.out.println(new Min().min(new int[]{6, 7, 3, 4, 5}));
+        System.out.println(new Min().min2(new int[]{3, 4, 5, 1, 2}));
+        System.out.println(new Min().min2(new int[]{6, 7, 3, 4, 5}));
         System.out.println(new Min().min2(new int[]{1, 1, 1, 0, 1}));
     }
 }

@@ -190,6 +190,24 @@ public class BiTree<AnyType> {
         }
     }
 
+    //层次遍历
+    public void printFromTopToBottom(TreeNode root){
+        if(root==null)
+            return;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            TreeNode cur = queue.poll();
+            System.out.print(cur.data+" ");
+            if(cur.lChild!=null){
+                queue.offer(cur.lChild);
+            }
+            if(cur.rChild!=null){
+                queue.offer(cur.rChild);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         String[] a = {"a", "b", "d", "#", "#", "#", "c", "e", "#", "#", "f", "#", "#"};
         BiTree<String> biTree = new BiTree<String>(a);// ABDEGCFH//DBGEAFHC
@@ -207,5 +225,6 @@ public class BiTree<AnyType> {
         System.out.println("叶子" + biTree.leaf(biTree.root));
         System.out.println("深度" + biTree.getDepth(biTree.root));
         System.out.println("二叉树的节点个数 " + biTree.countNode(biTree.root));
+        biTree.printFromTopToBottom(biTree.root);
     }
 }

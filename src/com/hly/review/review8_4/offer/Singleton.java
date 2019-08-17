@@ -1,4 +1,4 @@
-package com.hly.offer.chapter2;
+package com.hly.review.review8_4.offer;
 
 /**
  * @author :hly
@@ -11,16 +11,13 @@ package com.hly.offer.chapter2;
  */
 //兼顾饿汉模式单例模式的内存浪费问题和synchronized的性能问题
 //屏蔽了这两个缺点
-public class Singleton  {
+public class Singleton {
 
-    //static 使单例共享，final 保证方法不会被重写，重载
-    public static final Singleton getInstance(){
-        //返回结果之前，先加载内部类
+    public static final Singleton getInstance() {
         return LazyHolder.INSTANCE;
     }
 
-    //默认不会加载
-    private static class LazyHolder{
+    public static class LazyHolder {
         private static final Singleton INSTANCE = new Singleton();
     }
 }

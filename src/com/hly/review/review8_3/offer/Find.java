@@ -1,4 +1,4 @@
-package com.hly.offer.chapter2;
+package com.hly.review.review8_3.offer;
 
 /**
  * @author :hly
@@ -16,15 +16,15 @@ public class Find {
         if (matrix == null)
             return false;
         int rows = matrix.length, cols = matrix[0].length;
-        int r = 0, c = cols - 1;//右上角开始
-        while (r < rows - 1 && c >= 0) {
-            if (target == matrix[r][c]) {
+        int r = 0,c = cols-1;
+        while (r<rows&&c>=0){
+
+            if(target==matrix[r][c])
                 return true;
-            } else if (target > matrix[r][c]) {
+            else if(target>matrix[r][c])
                 r++;
-            } else {
+            else
                 c--;
-            }
         }
         return false;
     }

@@ -20,8 +20,14 @@ public class PrintListReversingly {
         }
     }
 
+    public static  void a(){
+
+    }
+
     //解法1 递归
     public void printListReversingly(ListNode head) {
+
+
         if (head.next != null) {
             printListReversingly(head.next);
             System.out.print(head.next.val + " ");

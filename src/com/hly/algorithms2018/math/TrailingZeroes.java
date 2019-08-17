@@ -12,7 +12,7 @@ package com.hly.algorithms2018.math;
 public class TrailingZeroes {
 
     public static int trailingZeroes(int n) {
-        int s = 1, count = 0;
+        int count = 0;
         while (n >0) {
             count+=n/5;
             n/=5;
