@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithms2018/tree/BiTree.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithmsCourse/experiment1/MaxCrossingSubarray.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithmsCourse/experiment2/ExtendedBottomUpCutRod.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithmsCourse/experiment2/Matrix.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithmsCourse/experiment2/findLCS.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithmsCourse/experiment3/Matrix.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/algorithmsCourse/experiment3/MyFloyd.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/hly/bloom/BloomFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/bloom/BloomFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/introduction/experiment1/MaxCrossingSubarray.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/introduction/experiment2/ExtendedBottomUpCutRod.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/introduction/experiment2/Matrix.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/introduction/experiment2/findLCS.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/introduction/experiment3/Matrix.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/algorithm/introduction/experiment3/MyFloyd.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedListOfDuplex.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/LinkedListWithoutHead.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/SequentialLinearList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/tree/BiTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/leetCode/algorithms2018/tree/BiTree.java" charset="GBK" />
   </component>
 </project>
