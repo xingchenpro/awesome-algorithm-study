@@ -17,7 +17,7 @@ public class Find {
             return false;
         int rows = matrix.length, cols = matrix[0].length;
         int r = 0, c = cols - 1;//右上角开始
-        while (r < rows - 1 && c >= 0) {
+        while (r < rows && c >= 0) {
             if (target == matrix[r][c]) {
                 return true;
             } else if (target > matrix[r][c]) {
@@ -33,6 +33,7 @@ public class Find {
 
         int matrix[][]={{12,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
         System.out.println(new Find().find(8, matrix));
+        System.out.println(new Find().find(15, matrix));
         System.out.println(new Find().find(28, matrix));
         System.out.println(new Find().find(8, null));
     }
