@@ -8,9 +8,9 @@
 
 [3、数组中的重复数字](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/Duplicate.java)
 
-[4、数组中的重复数字](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/Find.java)
+[4、二维数组中的查找](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/Find.java)
 
-[5、数组中的重复数字](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/ReplaceBlank.java)
+[5、替换空格](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/ReplaceBlank.java)
 
 
 ### LeetCode  (Java)
