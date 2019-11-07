@@ -12,6 +12,15 @@
 
 [5、替换空格](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/ReplaceBlank.java)
 
+[6、从尾到头打印链表](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/PrintListReversingly.java)
+
+*[7、重建二叉树](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/Construct.java)
+
+[9、用两个栈实现队列](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter1/CQueue.java)
+
+##### chapter2
+
+[10、斐波那契数列](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/offer/chapter2/Fibonacci.java)
 
 ### LeetCode  (Java)
 

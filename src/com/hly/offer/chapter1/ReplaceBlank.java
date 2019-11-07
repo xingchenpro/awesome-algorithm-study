@@ -32,7 +32,6 @@ public class ReplaceBlank {
         return sb.toString();
     }
 
-
     public static void main(String[] args) {
         System.out.println(replaceBlank("We Are Happy"));
         System.out.println(replaceBlank("We Are"));
