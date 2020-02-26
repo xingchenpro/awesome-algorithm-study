@@ -14,7 +14,7 @@ package com.hly.leetCode.offer;
  * 输出：2 或 3
  * 考察：时间/空间(O1)
  */
-public class FindRepeatNumber_01 {
+public class FindRepeatNumber_03 {
 
     //解法1：时间O(n),空间O(n)
     public static int findRepeatNumber1(int[] nums) {
@@ -31,6 +31,7 @@ public class FindRepeatNumber_01 {
     //解法2：时间O(n),空间O(1)
     public static int findRepeatNumber2(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
+            //如果当前数组的值不等于下标
             while (nums[i] != i) {
                 if (nums[i] == nums[nums[i]]) {
                     return nums[i];
