@@ -14,5 +14,6 @@
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/linkedList/SequentialLinearList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/dataStructure/tree/BiTree.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/hly/leetCode/algorithms2018/tree/BiTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/hly/os/GroupsLinking.java" charset="GBK" />
   </component>
 </project>

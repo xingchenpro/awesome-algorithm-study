@@ -10,9 +10,9 @@ import java.util.Scanner;
  * @date :2018/6/5
  */
 public class GroupsLinking {
-    //å¯ç”¨ç£ç›˜å¿«
+    //¿ÉÓÃ´ÅÅÌ¿ì
     static int[][] groupsLinking = {{3, 1, 2, 3}, {3, 4, 5, 6,}, {0, 0, 0, 0}, {0, 0, 0, 0}, {2, 0, 7, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}};
-    //å½“å‰ç©ºé—²å—
+    //µ±Ç°¿ÕÏĞ¿é
     static List<Integer> freeList = new ArrayList<Integer>() {{
         for (int i = 1; i <= 7; i++) {
             add(i);
@@ -21,17 +21,17 @@ public class GroupsLinking {
 
     static Scanner scanner = new Scanner(System.in);
 
-    //åˆ†é…ç©ºé—²å—
+    //·ÖÅä¿ÕÏĞ¿é
     public static void allocate() {
-        //ç©ºé—²å—æ•°,åˆ†é…çš„ç›˜å—å·
+        //¿ÕÏĞ¿éÊı,·ÖÅäµÄÅÌ¿éºÅ
         int freeNum, allocativeNum;
-        //å½“å‰ç»„ç›˜å—å¤§äº1å—
+        //µ±Ç°×éÅÌ¿é´óÓÚ1¿é
         if (groupsLinking[0][0] > 1) {
             freeNum = groupsLinking[0][0];
             allocativeNum = groupsLinking[0][freeNum];
             groupsLinking[0][0]--;
             freeList.remove((Integer) allocativeNum);
-            System.out.println("åˆ†é…çš„å—å·ä¸ºï¼š" + allocativeNum);
+            System.out.println("·ÖÅäµÄ¿éºÅÎª£º" + allocativeNum);
         }
 
         else if (groupsLinking[0][0] == 1) {
@@ -39,35 +39,35 @@ public class GroupsLinking {
             if (groupsLinking[0][1] != 0) {
                 allocativeNum = groupsLinking[0][1];
                 for (int j = 0; j < groupsLinking[allocativeNum].length; j++)
-                    //å½“å‰ç»„å·²ç»åˆ†é…å®Œï¼Œä¸‹ä¸€ç»„æ‹·è´åˆ°å½“å‰ç»„
+                    //µ±Ç°×éÒÑ¾­·ÖÅäÍê£¬ÏÂÒ»×é¿½±´µ½µ±Ç°×é
                     groupsLinking[0][j] = groupsLinking[allocativeNum][j];
                 //groupsLinking[0][0]--;
                 freeList.remove((Integer) allocativeNum);
-                System.out.println("åˆ†é…çš„å—å·ä¸ºï¼š" + allocativeNum);
+                System.out.println("·ÖÅäµÄ¿éºÅÎª£º" + allocativeNum);
 
             } else {
-                System.out.println("å·²ç»æ²¡æœ‰ç©ºé—²å—äº†");
+                System.out.println("ÒÑ¾­Ã»ÓĞ¿ÕÏĞ¿éÁË");
                 return;
             }
         }
         else {
-            System.out.println("å½“å‰ç»„å·²ç»åˆ†é…å®Œäº†");
+            System.out.println("µ±Ç°×éÒÑ¾­·ÖÅäÍêÁË");
         }
         display();
     }
 
-    //å›æ”¶ç©ºé—²å—
+    //»ØÊÕ¿ÕÏĞ¿é
     public static void recycling() {
         int freeNum;
-        System.out.println("è¯·è¾“å…¥ä½ æƒ³å›æ”¶çš„ç©ºé—²ç›˜å—çš„ç›˜å—å·:");
+        System.out.println("ÇëÊäÈëÄãÏë»ØÊÕµÄ¿ÕÏĞÅÌ¿éµÄÅÌ¿éºÅ:");
         int recyclingNum = scanner.nextInt();
         for (int i = 0; i < freeList.size(); i++) {
             if (freeList.get(i) == recyclingNum) {
-                System.out.println("è¯¥ç©ºé—²å—å·²ç»å­˜åœ¨");
+                System.out.println("¸Ã¿ÕÏĞ¿éÒÑ¾­´æÔÚ");
                 return;
             }
         }
-        //å½“å‰ç»„ä¸æ»¡3å—
+        //µ±Ç°×é²»Âú3¿é
         if (groupsLinking[0][0] < 3) {
             freeNum = groupsLinking[0][0];
             groupsLinking[0][++freeNum] = recyclingNum;
@@ -85,20 +85,20 @@ public class GroupsLinking {
 
     public static void display() {
         int freeNum, temp, groupNum = 1;
-        //ç©ºé—²ç›˜å—å·é“¾æ²¡æœ‰ç»“å°¾,åé¢è¿˜æœ‰å¾ˆå¤šç»„
+        //¿ÕÏĞÅÌ¿éºÅÁ´Ã»ÓĞ½áÎ²,ºóÃæ»¹ÓĞºÜ¶à×é
         if (groupsLinking[0][1] != 0) {
             freeNum = groupsLinking[0][0];
-            System.out.println("ç¬¬ä¸€ç»„ç›˜å—:");
-            //è¾“å‡ºç¬¬ä¸€ç»„ç©ºé—²ç›˜å—
+            System.out.println("µÚÒ»×éÅÌ¿é:");
+            //Êä³öµÚÒ»×é¿ÕÏĞÅÌ¿é
             for (int j = 1; j <= freeNum; j++) {
                 System.out.print(groupsLinking[0][j] + " ");
             }
             System.out.println();
-            //ä¸‹ä¸€ç»„ç›˜å—
+            //ÏÂÒ»×éÅÌ¿é
             temp = groupsLinking[0][1];
             groupNum++;
             while (groupsLinking[temp][1] != 0) {
-                System.out.println("ç¬¬" + groupNum + "ç»„ç›˜å—:");
+                System.out.println("µÚ" + groupNum + "×éÅÌ¿é:");
                 freeNum = groupsLinking[temp][0];
                 for (int j = 1; j <= freeNum; j++) {
                     System.out.print(groupsLinking[temp][j] + " ");
@@ -108,7 +108,7 @@ public class GroupsLinking {
                 temp = groupsLinking[temp][1];
             }
 
-            System.out.println("ç¬¬" + groupNum + "ç»„ç›˜å—ï¼Œä¹Ÿæ˜¯æœ€åä¸€ç»„:");
+            System.out.println("µÚ" + groupNum + "×éÅÌ¿é£¬Ò²ÊÇ×îºóÒ»×é:");
             freeNum = groupsLinking[temp][0];
 
             for (int j = 2; j <= freeNum; j++) {
@@ -120,11 +120,11 @@ public class GroupsLinking {
 
         else {
             freeNum = groupsLinking[0][0];
-            //1è¡¨ç¤ºåªæœ‰0
+            //1±íÊ¾Ö»ÓĞ0
             if (freeNum == 1) {
-                System.out.println("ç©ºé—²ç›˜å—å·²ç»å…¨éƒ¨è¢«åˆ†é…:");
+                System.out.println("¿ÕÏĞÅÌ¿éÒÑ¾­È«²¿±»·ÖÅä:");
             } else {
-                System.out.println("ç¬¬ä¸€ç»„ç›˜å—ä¸º:");
+                System.out.println("µÚÒ»×éÅÌ¿éÎª:");
                 for (int j = 2; j <= freeNum; j++) {
                     System.out.print(groupsLinking[0][j] + " ");
                 }
@@ -142,13 +142,13 @@ public class GroupsLinking {
             recycling();
             menu();
         } else if (i == 3) {
-            System.out.println("å·²é€€å‡º");
+            System.out.println("ÒÑÍË³ö");
         }
     }
 
     public static void main(String[] args) {
         display();
-        System.out.println("è¯·è¾“å…¥æ“ä½œï¼š1:åˆ†é…ï¼Œ2:å›æ”¶,3:é€€å‡º");
+        System.out.println("ÇëÊäÈë²Ù×÷£º1:·ÖÅä£¬2:»ØÊÕ,3:ÍË³ö");
         menu();
 
     }
