@@ -1,9 +1,5 @@
 package com.hly.leetCode.offer;
-
-import com.hly.offer.chapter1.CQueue;
-
 import java.util.Stack;
-
 /**
  * @author :hly
  * @github :https://github.com/huangliangyun
