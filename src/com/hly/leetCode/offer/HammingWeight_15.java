@@ -26,15 +26,22 @@ public class HammingWeight_15 {
         }
         return count;
     }
+
     //解法2：判断第一位是否为1，再逻辑右移>>>
+    public static int hammingWeight2(int n) {
+        return -1;
+    }
 
     public static void main(String[] args) {
-        //java 前面需要有0，才能是正确结果
-        //TODO 1001 无法得到正确结果
-        System.out.println(hammingWeight(01001));
-        System.out.println(hammingWeight(01011));
+        //TODO 1001 运行无法得到正确结果,LeetCode 提交正确，因为1开头为负数
+        System.out.println(hammingWeight(00001001));
+        System.out.println(hammingWeight(00001011));
         System.out.println(hammingWeight(00000000000000000000000000001011));
-        //System.out.println(hammingWeight(00000000000000000000000010000000));
+        System.out.println(hammingWeight(9));
+        //System.out.println(hammingWeight2(1001));//0110->0111,
 
     }
+    //PS :二进制里，用0或1表示正负，最高位1代表负数，最高位0代表正数
+    //十进制转二进制，正数直接转换，负数：绝对值转二进制->求反码->将反码加1
+
 }
