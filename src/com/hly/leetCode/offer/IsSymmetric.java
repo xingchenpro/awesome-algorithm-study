@@ -22,7 +22,6 @@ public class IsSymmetric {
         TreeNode(int x) {
             val = x;
         }
-
     }
 
     //解法1：递归
@@ -43,13 +42,9 @@ public class IsSymmetric {
             return false;
         }
         return judge(left.left, right.right) && judge(left.right, right.left);
-
     }
-
 
     public static void main(String[] args) {
         System.out.println(true && false);
     }
-
-
 }
