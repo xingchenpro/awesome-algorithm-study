@@ -14,6 +14,7 @@ package com.hly.leetCode.offer;
  */
 public class ReverseLeftWords_58_2 {
 
+    //解法1:字符串切割再拼接
     public static String reverseLeftWords(String s, int n) {
         if (s == null)
             return null;
