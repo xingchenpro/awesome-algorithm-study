@@ -8,15 +8,14 @@ package com.hly.algorithm.sort;
  * @date :2019/7/26
  * @QQ :1136513099
  * @desc : 快速排序
+ * https://blog.csdn.net/adusts/article/details/80882649
  */
 public class QuickSort {
 
-    public static void quickSort(int[] arrays, int low, int high) {
-        if (low > high)
-            return;
-        //i,j 是哨兵，t 是准基数
+    public static int partition(int[] arrays, int low, int high) {
+        //i,j 是哨兵，t 是准基数(枢轴）
         int i = low, j = high, t = arrays[low];
-        while (i < j) {
+        while (i != j) {
             //从右边找一个比基准数小的数
             while (arrays[j] >= t && i < j) {
                 j--;
@@ -26,24 +25,36 @@ public class QuickSort {
             }
             //如果找到了就交换
             if (i < j) {
-                arrays[i] = arrays[i] + arrays[j];
-                arrays[j] = arrays[i] - arrays[j];
-                arrays[i] = arrays[i] - arrays[j];
+                swap(arrays, i, j);
             }
-            //两个哨兵相遇后，与基准数交换
-            arrays[low] = arrays[i];
-            arrays[i] = t;
-            //继续对前一部分和后一部分排序
-            quickSort(arrays, low, i - 1);
-            quickSort(arrays, i + 1, high);
         }
+        //两个哨兵相遇后，i=j,与基准数交换？
+        arrays[low] = arrays[i];
+        arrays[i] = t;
+        //继续对前一部分和后一部分排序
+        return i;
+    }
+
+    public static void quickSort(int[] arrays, int low, int high) {
+        if (arrays == null || arrays.length <= 1 || low >= high)
+            return;
+        int mid = partition(arrays, low, high);
+        quickSort(arrays, low, mid - 1);
+        quickSort(arrays, mid + 1, high);
+    }
+
+    public static void swap(int[] nums, int i, int j) {
+        int t = nums[i];
+        nums[i] = nums[j];
+        nums[j] = t;
     }
 
     public static void main(String[] args) {
-        int[] arr = {10, 4, 7, 62, 3, 2, 1, 8, 9, 19};
-        quickSort(arr, 0, arr.length - 1);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        int[] arr = {6, 1, 2, 7, 9, 99, 4, 5, 10, 8, 3};
+        int[] arr2 = {5, 4, 3, 2, 1};
+        quickSort(arr2, 0, arr2.length - 1);
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i] + " ");
         }
     }
 }
