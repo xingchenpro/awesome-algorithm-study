@@ -15,6 +15,8 @@ import java.util.List;
  */
 public class Test {
 
+    private static int val;
+
     public static void main(String[] args){
         List list = new ArrayList();
         list.add(1);
@@ -22,6 +24,17 @@ public class Test {
         list.add(2);
         HashSet set = new HashSet(list);
         set.forEach(s->System.out.println(s));
+        new String();
+
+    }
+
+
+    static class User{
+
+        public void a(){
+
+            int a = val;
+        }
 
     }
 }
