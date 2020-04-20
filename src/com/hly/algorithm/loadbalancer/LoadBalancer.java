@@ -1,4 +1,4 @@
-package com.hly.loadbalancer;
+package com.hly.algorithm.loadbalancer;
 
 import java.util.List;
 

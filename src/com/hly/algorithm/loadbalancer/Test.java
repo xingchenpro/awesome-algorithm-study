@@ -1,7 +1,7 @@
-package com.hly.loadbalancer;
+package com.hly.algorithm.loadbalancer;
 
-import com.hly.loadbalancer.impl.IpHashLoadBalancer;
-import com.hly.loadbalancer.impl.RotationLoadBanancer;
+import com.hly.algorithm.loadbalancer.impl.IpHashLoadBalancer;
+import com.hly.algorithm.loadbalancer.impl.RotationLoadBanancer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

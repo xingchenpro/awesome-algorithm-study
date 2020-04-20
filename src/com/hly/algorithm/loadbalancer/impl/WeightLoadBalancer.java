@@ -1,7 +1,6 @@
-package com.hly.loadbalancer.impl;
+package com.hly.algorithm.loadbalancer.impl;
 
-import com.hly.loadbalancer.LoadBalancer;
-import com.hly.loadbalancer.weight.WeightEntity;
+import com.hly.algorithm.loadbalancer.LoadBalancer;
 
 import java.util.ArrayList;
 import java.util.List;

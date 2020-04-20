@@ -1,4 +1,4 @@
-package com.hly.loadbalancer.weight;
+package com.hly.algorithm.loadbalancer.weight;
 
 /**
  * @author :hly

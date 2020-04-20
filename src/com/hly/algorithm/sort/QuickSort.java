@@ -16,7 +16,7 @@ public class QuickSort {
         //i,j 是哨兵，t 是准基数(枢轴）
         int i = low, j = high, t = arrays[low];
         while (i != j) {
-            //从右边找一个比基准数小的数
+            //从右边找一个比基准数小的数,这里是或等于
             while (arrays[j] >= t && i < j) {
                 j--;
             }
@@ -51,7 +51,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] arr = {6, 1, 2, 7, 9, 99, 4, 5, 10, 8, 3};
-        int[] arr2 = {5, 4, 3, 2, 1};
+        int[] arr2 = {2, 2,1, 3, 3,5,4};
         quickSort(arr2, 0, arr2.length - 1);
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + " ");
