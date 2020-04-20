@@ -11,55 +11,58 @@ package com.hly.algorithm.sort;
  */
 public class HeapSort {
 
-    //构建一个最大堆
-    public static void build_max_heap(int array[], int length) {
-        for (int i = array.length / 2; i > 0; i--) {
-            max_heapify(array, i, length);
+    //https://www.cnblogs.com/chengxiao/p/6129630.html
+    public static void sort(int[] arr) {
+        //构建大顶堆
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+            //从第一个非叶子节点，从下到上，从右到左调整结构
+            adjustHeap(arr, i, arr.length);
+        }
+        //调整之后，交换堆顶元素和末尾元素
+        for (int j = arr.length - 1; j > 0; j--) {
+            swap(arr, 0, j);
+            //重新调整
+            adjustHeap(arr, 0, j);
         }
     }
-    //调整最大堆
-    public static void max_heapify(int arrays[], int i, int length) {
-        //
-        int l = i * 2;//左节点，数组初始下标为 1，为 0 时为2*i+1
-        int r = i * 2 + 1;
-        int largest = -1;
-        if (l < length && arrays[l] > arrays[i]) {
-            largest = l;
-        } else {
-            largest = i;
+    /**
+     * 调整大顶堆
+     */
+    public static void adjustHeap(int[] arr, int i, int length) {
+        //取出当前节点 i
+        int temp = arr[i];
+        //从 i 的左子节点开始，也就是 2*i+1处开始
+        for (int k = i * 2 + 1; k < length; k = i * 2 + 1) {
+            //如果左子节点小于右子节点
+            if (k + 1 < length && arr[k] < arr[k + 1]) {
+                k++;
+            }
+            //如果子节点大于父节点，那将子节点赋值给父节点，不用替换
+            if (arr[k] > temp) {
+                arr[i] = arr[k];
+                i = k;
+            } else {
+                break;
+            }
         }
-        if (r < length && arrays[r] > arrays[largest]) {
-            largest = r;
-        }
-        if (largest != i) {
-            //交换当前节点a[i]和最大的节点a[largest]
-            arrays[i] = arrays[i] + arrays[largest];
-            arrays[largest] = arrays[i] - arrays[largest];
-            arrays[i] = arrays[i] - arrays[largest];
-            max_heapify(arrays, largest, length);
-        }
+        //将 temp 放到最终的位置
+        arr[i] = temp;
     }
 
-    //堆排序
-    //最大堆，每次调整，最大元素总在a[1]中，与a[n]互换，然后排除a[n]再调整
-    //在剩余节点中，由于交换并排序了原来为最大节点的根，可能会违背最大堆的性质
-    //为了维护最大堆，则调用max_heapify(array,1,i)在a[1..i]上构造一个最大堆
-    //每一次取出最大元素，绕后调整最大堆
-    public static void sort_heap(int array[]) {
-        build_max_heap(array, array.length);
-        int i = array.length - 1;
-        while (i > 1) {
-            array[1] = array[1] + array[i];
-            array[i] = array[1] - array[i];
-            array[1] = array[1] - array[i];
-            i--;
-            max_heapify(array, 1, i);
-        }
+    /**
+     * 交换堆顶元素
+     */
+    public static void swap(int[] arr, int a, int b) {
+        int t = arr[a];
+        arr[a] = arr[b];
+        arr[b] = t;
     }
 
     public static void main(String[] args) {
-        int nums[] = {0, 5, 3, 17, 10, 84, 19, 6, 22, 9, 35};
-        sort_heap(nums);
+        //int nums[] = {10, 84, 19, 6, 22, 9, 35,0, 5, 3, 17};
+        int nums[] = {4,6,8,5,9};
+        //int nums[] = {9,7,6,8,5,3,4,2,1};
+        sort(nums);
         for (int i : nums)
             System.out.print(i + " ");
     }

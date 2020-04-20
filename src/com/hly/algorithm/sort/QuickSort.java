@@ -28,7 +28,7 @@ public class QuickSort {
                 swap(arrays, i, j);
             }
         }
-        //两个哨兵相遇后，i=j,与基准数交换？
+        //两个哨兵相遇后，i=j,与基准数交换,基准数左边的都比他小，右边的都比他大
         arrays[low] = arrays[i];
         arrays[i] = t;
         //继续对前一部分和后一部分排序
