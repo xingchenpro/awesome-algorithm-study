@@ -29,18 +29,16 @@ public class Test {
         list.add(ali1);
         list.add(ali2);
         LoadBalancer<Map<String, String>> listLoadBalancer = new RotationLoadBanancer<>();
-        System.out.println(listLoadBalancer.getResult(list));
-        System.out.println(listLoadBalancer.getResult(list));
-        System.out.println(listLoadBalancer.getResult(list));
-        System.out.println(listLoadBalancer.getResult(list));
-        System.out.println(listLoadBalancer.getResult(list));
+        for (int i=0;i<30;i++){
+            System.out.println(listLoadBalancer.getResult(list));
+        }
         //IP
-        System.out.println("IP");
+       /* System.out.println("IP");
         IpHashLoadBalancer<Map<String, String>> ipHashLoadBalancer = new IpHashLoadBalancer<>();
         System.out.println(ipHashLoadBalancer.getResult(list, "1234142"));
         System.out.println(ipHashLoadBalancer.getResult(list, "1234141"));
         System.out.println(ipHashLoadBalancer.getResult(list, "1234141"));
-        System.out.println(ipHashLoadBalancer.getResult(list, "1234142"));
+        System.out.println(ipHashLoadBalancer.getResult(list, "1234142"));*/
 
     }
 }

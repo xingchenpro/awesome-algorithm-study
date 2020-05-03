@@ -15,12 +15,14 @@ import java.util.concurrent.atomic.AtomicLong;
  * @desc : 轮询算法
  */
 public class RotationLoadBanancer<T> implements LoadBalancer<T> {
+
     private AtomicLong atomicLong = new AtomicLong();
 
     @Override
     public T getResult(List<T> result) {
-        Long index = atomicLong.incrementAndGet() % result.size();
-        T res = result.get(Integer.parseInt(index + ""));
+        /*Long index = atomicLong.incrementAndGet() % result.size();
+        System.out.println(index);*/
+        T res = result.get(Integer.parseInt(atomicLong.incrementAndGet() % result.size() + ""));
         return res;
     }
 }
