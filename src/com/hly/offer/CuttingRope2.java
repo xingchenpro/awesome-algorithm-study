@@ -31,5 +31,4 @@ public class CuttingRope2 {
         System.out.println(new CuttingRope2().cuttingRope(10));//36
         System.out.println(new CuttingRope2().cuttingRope(120));//953271190
     }
-
 }

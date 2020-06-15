@@ -30,6 +30,4 @@ public class FindRepeatNumber {
         int []nums={2, 3, 1, 0, 2, 5, 3};
         System.out.println(new FindRepeatNumber().findRepeatNumber(nums));
     }
-
-
 }

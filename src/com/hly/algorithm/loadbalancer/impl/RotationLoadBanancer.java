@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 public class RotationLoadBanancer<T> implements LoadBalancer<T> {
 
-    private AtomicLong atomicLong = new AtomicLong();
+    private static AtomicLong atomicLong = new AtomicLong();
 
     @Override
     public T getResult(List<T> result) {
