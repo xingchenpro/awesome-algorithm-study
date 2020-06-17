@@ -31,5 +31,4 @@ public class Reverse {
         System.out.println(new Reverse().reverse(123));
         System.out.println(new Reverse().reverse(-123));
     }
-
 }
