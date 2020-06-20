@@ -12,8 +12,8 @@ LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 坚持
 |27|[移除元素](<https://leetcode-cn.com/problems/remove-element/>)|[removeElement](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/RemoveElement.java)||easy|
 |28|[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[strStr]()||easy|
 |35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|[searchInsert]()|[搜索插入位置](<https://leetcode-cn.com/problems/search-insert-position/solution/hua-jie-suan-fa-35-sou-suo-cha-ru-wei-zhi-by-guanp/>)|easy|
-|38|[外观数列](https://leetcode-cn.com/problems/count-and-say/)|[countAndSay]()||easy|
-|53|||||
+|TODO 38|[外观数列](https://leetcode-cn.com/problems/count-and-say/)|[countAndSay]()||easy|
+|53|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[maxSubArray]()||easy|
 |58|||||
 |66|||||
 |67|||||
