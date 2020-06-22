@@ -10,7 +10,7 @@ import java.util.Map;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2020/6/15
  * @QQ :1136513099
- * @desc : AC 1. 两数之和
+ * @desc : 1. 两数之和
  * https://leetcode-cn.com/problems/two-sum/
  */
 public class TwoSum {

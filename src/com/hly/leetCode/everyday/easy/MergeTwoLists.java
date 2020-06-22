@@ -7,7 +7,7 @@ package com.hly.leetCode.everyday.easy;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2020/6/17
  * @QQ :1136513099
- * @desc : AC 21. 合并两个有序链表
+ * @desc : 21. 合并两个有序链表
  * https://leetcode-cn.com/problems/merge-two-sorted-lists/
  */
 public class MergeTwoLists {
@@ -42,6 +42,4 @@ public class MergeTwoLists {
         }
         return res.next;
     }
-
-
 }

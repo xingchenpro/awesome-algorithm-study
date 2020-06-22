@@ -14,12 +14,12 @@ LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 坚持
 |35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|[searchInsert](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/SearchInsert.java>)|[搜索插入位置](<https://leetcode-cn.com/problems/search-insert-position/solution/hua-jie-suan-fa-35-sou-suo-cha-ru-wei-zhi-by-guanp/>)|easy|
 |TODO 38|[外观数列](https://leetcode-cn.com/problems/count-and-say/)|[countAndSay]()||easy|
 |53|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[maxSubArray](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MaxSubArray.java>)||easy|
-|58|[最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|[lengthOfLastWord]()||easy|
-|66|[加一](https://leetcode-cn.com/problems/plus-one/)|[plusOne]()||easy|
-|67|[二进制求和](https://leetcode-cn.com/problems/add-binary/)|[addBinary]()|[二进制求和](<https://leetcode-cn.com/problems/add-binary/solution/er-jin-zhi-qiu-he-by-leetcode/>)|easy|
-|69|||||
-|70|||||
-|83|||||
+|58|[最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|[lengthOfLastWord](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/LengthOfLastWord.java>)||easy|
+|66|[加一](https://leetcode-cn.com/problems/plus-one/)|[plusOne](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/PlusOne.java>)||easy|
+|67|[二进制求和](https://leetcode-cn.com/problems/add-binary/)|[addBinary](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/AddBinary.java>)|[二进制求和](<https://leetcode-cn.com/problems/add-binary/solution/er-jin-zhi-qiu-he-by-leetcode/>)|easy|
+|69|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)|[mySqrt]()||easy|
+|70|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[climbStairs]()||easy|
+|83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|[deleteDuplicates]()||easy|
 |88|||||
 |100|||||
 

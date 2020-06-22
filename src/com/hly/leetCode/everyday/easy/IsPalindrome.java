@@ -7,7 +7,7 @@ package com.hly.leetCode.everyday.easy;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2020/6/15
  * @QQ :1136513099
- * @desc : AC 9. 回文数
+ * @desc : 9. 回文数
  * https://leetcode-cn.com/problems/palindrome-number/
  */
 public class IsPalindrome {
