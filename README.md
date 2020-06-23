@@ -1,4 +1,4 @@
-LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 坚持
+LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 相信时间的力量，做时间的朋友
 | 序号 | 题目 | 代码 | 题解 | 难度 |
 | ---- | ---- | ---- | ---- | ---- |
 |1|[两数之和](https://leetcode-cn.com/problems/two-sum/)|[twoSum](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TwoSum.java) | |easy|
