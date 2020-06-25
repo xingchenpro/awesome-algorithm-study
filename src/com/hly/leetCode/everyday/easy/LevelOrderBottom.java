@@ -52,6 +52,4 @@ public class LevelOrderBottom {
         }
         return result;
     }
-
-
 }
