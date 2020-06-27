@@ -32,5 +32,4 @@ public class HasPathSum {
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
     }
 
-
 }
