@@ -4,3 +4,10 @@ https://blog.csdn.net/qq_36081539/article/details/76862451
 LinkedList基本用法
 双向链表
 https://blog.csdn.net/jdsjlzx/article/details/41654295
+
+正则表达式和替换
+s.toUpperCase().replaceAll("[^a-zA-Z0-9]", "")
+
+异或
+
+https://leetcode-cn.com/problems/single-number/

@@ -1,4 +1,5 @@
-LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 相信时间的力量，做时间的朋友
+-LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 相信时间的力量，做时间的朋友
+
 | 序号 | 题号 | 题目 | 代码 | 题解 | 难度 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |1|1|[两数之和](https://leetcode-cn.com/problems/two-sum/)|[twoSum](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TwoSum.java) | |easy|
@@ -29,9 +30,12 @@ LeetCode | Java | 练习 | 复习 | 总结 | 6.15 开始 | 每天 3 道 | 相信
 |26|110|[平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|[isBalanced](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsBalanced.java>)|[平衡二叉树](<https://leetcode-cn.com/problems/balanced-binary-tree/solution/ping-heng-er-cha-shu-by-leetcode/>)|easy|
 |27|111|[二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)|[minDepth](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinDepth.java>)||easy|
 |28|112|[路径总和](https://leetcode-cn.com/problems/path-sum/)|[hasPathSum](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/HasPathSum.java>)|[路径总和](<https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-leetcode/>)|easy|
-|29|118|[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|[generate]()||easy|
-|30|119|[杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|[getRow]()||easy|
-|31|121|[买卖股票的最佳时机](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/>)|[maxProfit]()||easy|
+|29|118|[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|[generate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/Generate.java>)||easy|
+|30|119|[杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|[getRow](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetRow.java>)||easy|
+|31|121|[买卖股票的最佳时机](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/>)|[maxProfit](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MaxProfit.java>)||easy|
+|32|122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[maxProfit]()|[买卖股票的最佳时机 II](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/>)|easy|
+|33|125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[isPalindrome]()||easy|
+|34|136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|[singleNumber]()||easy|
 |||||||
 |||||||
 
