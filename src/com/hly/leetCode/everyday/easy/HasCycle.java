@@ -15,8 +15,8 @@ public class HasCycle {
         int val;
         ListNode next;
 
-        public ListNode(ListNode next) {
-            this.next = next;
+        public ListNode(int val) {
+            this.val = val;
         }
     }
 
@@ -28,14 +28,21 @@ public class HasCycle {
         ListNode p2 = head.next;
         //当p1=p2,快的节点追上慢的节点，表示有环，退出循环
         while (p1 != p2) {
-            //循环终止条件
-            if (p1 == null || p2 == null) {
+            //循环终止条件,这里是 p2.next ==null,如果 p2..next 为null，将出现空指针异常
+            if (p1 == null || p2.next == null) {
                 return false;
             }
             p1 = p1.next;
             p2 = p2.next.next;
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        System.out.println(new HasCycle().hasCycle(head));
+
     }
 
 }
