@@ -36,10 +36,10 @@
 |32|122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[maxProfit](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MaxProfit2.java>)|[买卖股票的最佳时机 II](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/>)|easy|
 |33|125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[isPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPalindrome125.java>)||easy|
 |34|136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|[singleNumber](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/SingleNumber.java>)||easy|
-|35|141|[141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[hasCycle]()||easy|
-|36|155|[155. 最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack]()||easy|
+|35|141|[141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[hasCycle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/HasCycle.java>)||easy|
+|36|155|[155. 最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack]()|[最小栈](<https://leetcode-cn.com/problems/min-stack/solution/zui-xiao-zhan-by-leetcode-solution/>)|easy|
 |37|157(VIP)|[用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4)|||easy|
-|38|160|[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[getIntersectionNode]()||easy|
+|38|160|[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[getIntersectionNode](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetIntersectionNode.java>)||easy|
 |||||||
 |||||||
 |||||||
