@@ -37,9 +37,12 @@
 |33|125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[isPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPalindrome125.java>)||easy|
 |34|136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|[singleNumber](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/SingleNumber.java>)||easy|
 |35|141|[141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[hasCycle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/HasCycle.java>)||easy|
-|36|155|[155. 最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack]()|[最小栈](<https://leetcode-cn.com/problems/min-stack/solution/zui-xiao-zhan-by-leetcode-solution/>)|easy|
+|36|155|[155. 最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinStack.java>)|[最小栈](<https://leetcode-cn.com/problems/min-stack/solution/zui-xiao-zhan-by-leetcode-solution/>)|easy|
 |37|157(VIP)|[用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4)|||easy|
 |38|160|[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[getIntersectionNode](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetIntersectionNode.java>)||easy|
+|39|167|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[twoSum]()||easy|
+|40|168|[168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[convertToTitle]()|[Excel表列名称](<https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/>)|easy|
+|41|169|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|[majorityElement]()||easy|
 |||||||
 |||||||
 |||||||

@@ -9,5 +9,8 @@ https://blog.csdn.net/jdsjlzx/article/details/41654295
 s.toUpperCase().replaceAll("[^a-zA-Z0-9]", "")
 
 异或
-
 https://leetcode-cn.com/problems/single-number/
+
+A-Z 65-90
+a-z 97-122
+
