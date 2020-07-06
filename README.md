@@ -40,10 +40,13 @@
 |36|155|[155. 最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinStack.java>)|[最小栈](<https://leetcode-cn.com/problems/min-stack/solution/zui-xiao-zhan-by-leetcode-solution/>)|easy|
 |37|157(VIP)|[用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4)|||easy|
 |38|160|[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[getIntersectionNode](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetIntersectionNode.java>)||easy|
-|39|167|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[twoSum]()||easy|
-|40|168|[168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[convertToTitle]()|[Excel表列名称](<https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/>)|easy|
-|41|169|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|[majorityElement]()||easy|
-|||||||
+|39|167|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[twoSum](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TwoSum167.java>)||easy|
+|40|168|[168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[convertToTitle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ConvertToTitle.java>)|[Excel表列名称](<https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/>)|easy|
+|41|169|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|[majorityElement](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MajorityElement.java>)||easy|
+|42|170(VIP)|[两数之和 III - 数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design)|||easy|
+|43|171|[Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)|[titleToNumber]()|[Excel表列序号](<https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/>)|easy|
+|44|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[trailingZeroes]()|[172. 阶乘后的零](<https://leetcode-cn.com/problems/factorial-trailing-zeroes/solution/jie-cheng-hou-de-ling-by-leetcode/>)|easy|
+|45|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate]()||easy|
 |||||||
 |||||||
 

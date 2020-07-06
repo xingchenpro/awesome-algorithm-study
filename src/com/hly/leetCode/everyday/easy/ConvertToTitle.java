@@ -6,7 +6,7 @@ package com.hly.leetCode.everyday.easy;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @WeChat :liangyun2021
  * @date :2020/7/5
- * @desc : 168. Excel表列名称/
+ * @desc : * 168. Excel表列名称/
  * https://leetcode-cn.com/problems/excel-sheet-column-title/
  */
 public class ConvertToTitle {
@@ -32,6 +32,7 @@ public class ConvertToTitle {
     public static void main(String[] args) {
         System.out.println(new ConvertToTitle().convertToTitle(28));//AB
         System.out.println(new ConvertToTitle().convertToTitle(26));//Z
+        System.out.println(new ConvertToTitle().convertToTitle(56));//
     }
 
 
