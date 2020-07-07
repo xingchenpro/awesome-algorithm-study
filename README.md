@@ -44,9 +44,12 @@
 |40|168|[168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[convertToTitle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ConvertToTitle.java>)|[Excel表列名称](<https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/>)|easy|
 |41|169|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|[majorityElement](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MajorityElement.java>)||easy|
 |42|170(VIP)|[两数之和 III - 数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design)|||easy|
-|43|171|[Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)|[titleToNumber]()|[Excel表列序号](<https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/>)|easy|
-|44|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[trailingZeroes]()|[172. 阶乘后的零](<https://leetcode-cn.com/problems/factorial-trailing-zeroes/solution/jie-cheng-hou-de-ling-by-leetcode/>)|easy|
-|45|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate]()||easy|
+|43|171|[Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)|[titleToNumber](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TitleToNumber.java>)|[Excel表列序号](<https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/>)|easy|
+|44|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[trailingZeroes](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TrailingZeroes.java>)|[阶乘后的零](<https://leetcode-cn.com/problems/factorial-trailing-zeroes/solution/jie-cheng-hou-de-ling-by-leetcode/>)|easy|
+|45|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/Rotate.java>)|[旋转数组](<https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode/>)|easy|
+|46|190|[190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)|[reverseBits]()|[颠倒二进制位](<https://leetcode-cn.com/problems/reverse-bits/solution/dian-dao-er-jin-zhi-wei-by-leetcode/>)|easy|
+|47|191||||easy|
+|48|193||||easy|
 |||||||
 |||||||
 
