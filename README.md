@@ -36,21 +36,21 @@
 |32|122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[maxProfit](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MaxProfit2.java>)|[买卖股票的最佳时机 II](<https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/>)|easy|
 |33|125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[isPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPalindrome125.java>)||easy|
 |34|136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|[singleNumber](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/SingleNumber.java>)||easy|
-|35|141|[141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[hasCycle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/HasCycle.java>)||easy|
-|36|155|[155. 最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinStack.java>)|[最小栈](<https://leetcode-cn.com/problems/min-stack/solution/zui-xiao-zhan-by-leetcode-solution/>)|easy|
+|35|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[hasCycle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/HasCycle.java>)||easy|
+|36|155|[最小栈](https://leetcode-cn.com/problems/min-stack/)|[MinStack](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinStack.java>)|[最小栈](<https://leetcode-cn.com/problems/min-stack/solution/zui-xiao-zhan-by-leetcode-solution/>)|easy|
 |37|157(VIP)|[用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4)|||easy|
-|38|160|[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[getIntersectionNode](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetIntersectionNode.java>)||easy|
-|39|167|[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[twoSum](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TwoSum167.java>)||easy|
-|40|168|[168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[convertToTitle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ConvertToTitle.java>)|[Excel表列名称](<https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/>)|easy|
-|41|169|[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)|[majorityElement](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MajorityElement.java>)||easy|
+|38|160|[相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[getIntersectionNode](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetIntersectionNode.java>)||easy|
+|39|167|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[twoSum](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TwoSum167.java>)||easy|
+|40|168|[Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[convertToTitle](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ConvertToTitle.java>)|[Excel表列名称](<https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/>)|easy|
+|41|169|[多数元素](https://leetcode-cn.com/problems/majority-element/)|[majorityElement](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MajorityElement.java>)||easy|
 |42|170(VIP)|[两数之和 III - 数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design)|||easy|
 |43|171|[Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)|[titleToNumber](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TitleToNumber.java>)|[Excel表列序号](<https://leetcode-cn.com/problems/excel-sheet-column-number/solution/hua-jie-suan-fa-171-excelbiao-lie-xu-hao-by-guanpe/>)|easy|
 |44|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[trailingZeroes](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TrailingZeroes.java>)|[阶乘后的零](<https://leetcode-cn.com/problems/factorial-trailing-zeroes/solution/jie-cheng-hou-de-ling-by-leetcode/>)|easy|
 |45|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/Rotate.java>)|[旋转数组](<https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode/>)|easy|
-|46|190|[190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)|[reverseBits]()|[颠倒二进制位](<https://leetcode-cn.com/problems/reverse-bits/solution/dian-dao-er-jin-zhi-wei-by-leetcode/>)|easy|
-|47|191||||easy|
-|48|193||||easy|
+|46|190|[颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)|[reverseBits]()|[颠倒二进制位](<https://leetcode-cn.com/problems/reverse-bits/solution/dian-dao-er-jin-zhi-wei-by-leetcode/>)|easy|
+|47|191|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|[hammingWeight]()||easy|
+|48|193|[打家劫舍](https://leetcode-cn.com/problems/house-robber/)|[rob]()||easy|
 |||||||
 |||||||
 
-
+[easy 代码总览](<https://github.com/huangliangyun/LeetCode/tree/master/src/com/hly/leetCode/everyday/easy>)
