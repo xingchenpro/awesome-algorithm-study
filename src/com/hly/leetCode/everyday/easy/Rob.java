@@ -11,9 +11,9 @@ package com.hly.leetCode.everyday.easy;
  */
 public class Rob {
 
-    public int rob(int[] nums) {
+   /* public int rob(int[] nums) {
 
-    }
+    }*/
 
     public static void main(String[] args){
 
