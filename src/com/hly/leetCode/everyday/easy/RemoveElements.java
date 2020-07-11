@@ -1,5 +1,7 @@
 package com.hly.leetCode.everyday.easy;
 
+import java.util.List;
+
 /**
  * @author :hly
  * @github :https://github.com/huangliangyun
@@ -21,34 +23,19 @@ public class RemoveElements {
     }
 
     public ListNode removeElements(ListNode head, int val) {
-        if (head == null)
-            return null;
-        ListNode cur = head;
-        while (cur.next!= null) {
-            if (cur.val == val) {
-              cur.next = cur.next.next;
-            } else {
-                cur = cur.next;
-            }
+        //哨兵节点，伪头
+        ListNode sentinel = new ListNode(0);
+        //考虑删除的节点是第一个节点，直接哨兵节点指向第一个节点的下一个节点
+        sentinel.next = head;
+        ListNode pre = sentinel, cur = head;
+        while (cur != null) {
+            if (cur.val == val)
+                pre.next = cur.next;
+            else
+                pre = cur;
+            cur = cur.next;
         }
-        return head;
+        return sentinel.next;
     }
 
-    public static void main(String[] args) {
-
-        ListNode head = new ListNode(1);
-        int[] p = {1, 2, 6, 3, 4, 5, 6};
-        for (int i = 0; i < p.length; i++) {
-            head.val = p[i];
-            head.next = new ListNode(p[i]);
-        }
-
-        RemoveElements re = new RemoveElements();
-        ListNode res = re.removeElements(head, 6);
-        while (res != null) {
-            System.out.print(res.val + " ");
-            res = res.next;
-        }
-
-    }
 }
