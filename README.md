@@ -50,11 +50,11 @@
 |46|190|[颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)|[reverseBits](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseBits.java>)|[颠倒二进制位](<https://leetcode-cn.com/problems/reverse-bits/solution/dian-dao-er-jin-zhi-wei-by-leetcode/>)|easy|
 |47|191|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)|[hammingWeight](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/HammingWeight.java>)||easy|
 |48|198|[打家劫舍](https://leetcode-cn.com/problems/house-robber/)|[rob](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/Rob.java>)||easy|
-|49|202|[快乐数](https://leetcode-cn.com/problems/happy-number/)|[isHappy]()||easy|
-|50|203|[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|[removeElements]()||easy|
-|51|204||||easy|
-|52|205||||easy|
-|53|206||||easy|
+|49|202|[快乐数](https://leetcode-cn.com/problems/happy-number/)|[isHappy](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsHappy.java>)||easy|
+|50|203|[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|[removeElements](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/RemoveElements.java>)||easy|
+|51|204|[计数质数](https://leetcode-cn.com/problems/count-primes/)|[countPrimes]()|[计算质数](<https://leetcode-cn.com/problems/count-primes/solution/ji-shu-zhi-shu-bao-li-fa-ji-you-hua-shai-fa-ji-you/>)|easy|
+|52|205|[同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)|[isIsomorphic]()||easy|
+|53|206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|[reverseList]()||easy|
 |||||||
 |||||||
 |||||||
