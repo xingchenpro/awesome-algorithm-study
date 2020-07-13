@@ -9,7 +9,7 @@ import java.util.List;
  * @WeChat :liangyun2021
  * @date :2020/7/12
  * @desc : 206. 反转链表
- * https://leetcode-cn.com/problems/reverse-linked-list/
+ *  https://leetcode-cn.com/problems/reverse-linked-list/
  */
 public class ReverseList {
 
