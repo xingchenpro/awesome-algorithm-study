@@ -1,4 +1,4 @@
--LeetCode | Java | 练习 | 复习 | 总结 | 每天 3 道 | 相信时间的力量，做时间的朋友
+LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时间的力量，做时间的朋友
 
 | 序号 | 题号 | 题目 | 代码 | 题解 | 难度 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -56,8 +56,8 @@
 |52|205|[同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)|[isIsomorphic](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsIsomorphic.java>)||easy|
 |53|206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|[reverseList](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseList.java>)||easy|
 |54|217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|[containsDuplicate]()||easy|
-|55|219||||easy|
-|56|225||||easy|
+|55|219|[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|[containsNearbyDuplicate]()||easy|
+|56|225|[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)|[MyStack]()||easy|
 |||||||
 |||||||
 |||||||
