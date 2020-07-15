@@ -22,13 +22,13 @@ public class MyStack {
     public MyStack() {
         in = new LinkedList<>();
         out = new LinkedList<>();
-    }
 
-    /**
-     * Push element x onto stack.
-     */
-    //用两个队列，入队时，放到入队队列
-    //然后把出队队列的元素全部放到入队队列中
+        /**
+         * Push element x onto stack.
+         */
+        //用两个队列，入队时，放到入队队列
+        //然后把出队队列的元素全部放到入队队列中
+    }
     //然后入队队列和出队队列交换
     //每次从出队队列拿元素，这样就模拟了后进先出
     public void push(int x) {

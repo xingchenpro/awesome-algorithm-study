@@ -55,9 +55,12 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |51|204|[计数质数](https://leetcode-cn.com/problems/count-primes/)|[countPrimes](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/CountPrimes.java>)|[计算质数](<https://leetcode-cn.com/problems/count-primes/solution/ji-shu-zhi-shu-bao-li-fa-ji-you-hua-shai-fa-ji-you/>)|easy|
 |52|205|[同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)|[isIsomorphic](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsIsomorphic.java>)||easy|
 |53|206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|[reverseList](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseList.java>)||easy|
-|54|217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|[containsDuplicate]()||easy|
-|55|219|[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|[containsNearbyDuplicate]()||easy|
-|56|225|[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)|[MyStack]()||easy|
+|54|217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|[containsDuplicate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ContainsDuplicate.java>)||easy|
+|55|219|[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|[containsNearbyDuplicate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ContainsNearbyDuplicate.java>)||easy|
+|56|225|[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)|[MyStack](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinStack.java>)||easy|
+|57|226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|[invertTree]()|||
+|58|231|||||
+|59|232|||||
 |||||||
 |||||||
 |||||||
