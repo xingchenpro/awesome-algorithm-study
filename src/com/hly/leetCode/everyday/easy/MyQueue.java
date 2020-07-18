@@ -8,7 +8,7 @@ import java.util.Stack;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @WeChat :liangyun2021
  * @date :2020/7/15
- * @desc :TODO 232. 用栈实现队列
+ * @desc :232. 用栈实现队列
  * https://leetcode-cn.com/problems/implement-queue-using-stacks/
  */
 public class MyQueue {
