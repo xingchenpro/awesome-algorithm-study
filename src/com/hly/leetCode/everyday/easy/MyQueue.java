@@ -22,7 +22,6 @@ public class MyQueue {
         out = new Stack<>();
     }
 
-
     /**
      * Push element x to the back of queue.
      */
