@@ -58,11 +58,16 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |54|217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)|[containsDuplicate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ContainsDuplicate.java>)||easy|
 |55|219|[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|[containsNearbyDuplicate](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ContainsNearbyDuplicate.java>)||easy|
 |56|225|[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)|[MyStack](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MinStack.java>)||easy|
-|57|226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|[invertTree]()|||
-|58|231|[2的幂](https://leetcode-cn.com/problems/power-of-two/)|[isPowerOfTwo]()|[2的幂](<https://leetcode-cn.com/problems/power-of-two/solution/2de-mi-by-leetcode/>)||
-|59|232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|[MyQueue]()|||
+|57|226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|[invertTree](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/InvertTree.java>)||easy|
+|58|231|[2的幂](https://leetcode-cn.com/problems/power-of-two/)|[isPowerOfTwo](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfTwo.java>)|[2的幂](<https://leetcode-cn.com/problems/power-of-two/solution/2de-mi-by-leetcode/>)|easy|
+|59|232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|[MyQueue](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MyQueue.java>)||easy|
+|60|234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|[isPalindrome]()|[回文链表](<https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-by-leetcode/>)|easy|
+|61|235||||easy|
+|62|237||||easy|
 |||||||
 |||||||
 |||||||
+
+
 
 [easy 代码总览](<https://github.com/huangliangyun/LeetCode/tree/master/src/com/hly/leetCode/everyday/easy>)
