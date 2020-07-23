@@ -61,12 +61,12 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |57|226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|[invertTree](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/InvertTree.java>)||easy|
 |58|231|[2的幂](https://leetcode-cn.com/problems/power-of-two/)|[isPowerOfTwo](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfTwo.java>)|[2的幂](<https://leetcode-cn.com/problems/power-of-two/solution/2de-mi-by-leetcode/>)|easy|
 |59|232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|[MyQueue](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MyQueue.java>)||easy|
-|60|234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|[isPalindrome]()|[回文链表](<https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-by-leetcode/>)|easy|
-|61|235|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)||[二叉搜索树的最近公共祖先](<https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian--2/>)|easy|
-|62|237||||easy|
-|63|242|||||
-|64|257|||||
-|65||||||
+|60|234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|[isPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPalindrome234.java>)|[回文链表](<https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-by-leetcode/>)|easy|
+|61|235|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[lowestCommonAncestor](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/LowestCommonAncestor.java>)|[二叉搜索树的最近公共祖先](<https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian--2/>)|easy|
+|62|237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|[deleteNode]()||easy|
+|63|242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|[isAnagram]()|[有效的字母异位词](<https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-leetcode/>)|easy|
+|64|257|[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)|[binaryTreePaths]||easy|
+|||||||
 |||||||
 |||||||
 
