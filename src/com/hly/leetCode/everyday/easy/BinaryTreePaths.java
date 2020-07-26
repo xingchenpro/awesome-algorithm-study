@@ -12,7 +12,6 @@ import java.util.List;
  * https://leetcode-cn.com/problems/binary-tree-paths/
  */
 public class BinaryTreePaths {
-
     private static class TreeNode{
         int val;
         TreeNode left;
