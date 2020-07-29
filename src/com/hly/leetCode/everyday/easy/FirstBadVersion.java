@@ -11,6 +11,7 @@ package com.hly.leetCode.everyday.easy;
  */
 public class FirstBadVersion {
 
+    //解法1：考察二分
     public int firstBadVersion(int n) {
         int left = 1;
         int right = n;
