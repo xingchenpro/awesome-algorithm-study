@@ -66,11 +66,11 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |62|237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|[deleteNode](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/DeleteNode.java>)||easy|
 |63|242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|[isAnagram](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsAnagram.java>)|[有效的字母异位词](<https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-leetcode/>)|easy|
 |64|257|[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)|[binaryTreePaths](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsAnagram.java>)||easy|
-|65|263|[丑数](https://leetcode-cn.com/problems/ugly-number/)|[isUgly]()||easy|
-|66|268||||easy|
-|||||||
-|||||||
-|||||||
+|65|263|[丑数](https://leetcode-cn.com/problems/ugly-number/)|[isUgly](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsUgly.java>)||easy|
+|66|268|[缺失数字](https://leetcode-cn.com/problems/missing-number)|[missingNumber]()||easy|
+|67|278|[第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version)|[firstBadVersion]()||easy|
+|68|283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|||easy|
+|69|290|[单词规律](https://leetcode-cn.com/problems/word-pattern)|||easy|
 |||||||
 |||||||
 

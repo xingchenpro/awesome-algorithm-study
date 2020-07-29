@@ -12,7 +12,7 @@ package com.hly.leetCode.everyday.easy;
 public class SingleNumber {
 
 
-    //解法1：异或(相同为 0 ,不同为 1,异或 0 为原数)
+    //解法1：异或(二进制，相同为 0 ,不同为 1,异或 0 为原数)
     //1、任何数和 0 做异或,结果是原来的数,a⊕0=a
     //2、任何数和自身做异或,结果为0,a⊕a=0
     //3、异或运算满足交换律和结合律,即 a⊕b⊕a=b⊕a⊕a=b⊕(a⊕a)=b⊕0=b
