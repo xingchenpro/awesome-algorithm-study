@@ -17,6 +17,7 @@ public class NumArray {
         this.nums = nums;
     }
 
+    //解法1：简单解法
     public int sumRange(int i, int j) {
         int sum = 0;
         for (int n = i; n <= j; n++) {
@@ -24,11 +25,14 @@ public class NumArray {
         }
         return sum;
     }
+    //解法2：hash 缓存
+    //解法3：初始化覆盖 nums
+
 
     public static void main(String[] args) {
-        System.out.println(new NumArray(new int[]{-2, 0, 3, -5, 2, -1}).sumRange(0,2));//1
-        System.out.println(new NumArray(new int[]{-2, 0, 3, -5, 2, -1}).sumRange(2,5));//-1
-        System.out.println(new NumArray(new int[]{-2, 0, 3, -5, 2, -1}).sumRange(0,5));//-3
+        System.out.println(new NumArray(new int[]{-2, 0, 3, -5, 2, -1}).sumRange(0, 2));//1
+        System.out.println(new NumArray(new int[]{-2, 0, 3, -5, 2, -1}).sumRange(2, 5));//-1
+        System.out.println(new NumArray(new int[]{-2, 0, 3, -5, 2, -1}).sumRange(0, 5));//-3
     }
 
 }
