@@ -73,9 +73,15 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |69|290|[单词规律](https://leetcode-cn.com/problems/word-pattern)|[wordPattern](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/WordPattern.java>)||easy|
 |70|292|[Nim 游戏](https://leetcode-cn.com/problems/nim-game/)|[canWinNim](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/CanWinNim.java>)||easy|
 |71|303|[区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)|[sumRange](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/NumArray.java>)|[区域和检索](<https://leetcode-cn.com/problems/range-sum-query-immutable/solution/qu-yu-he-jian-suo-shu-zu-bu-ke-bian-by-leetcode/>)|easy|
-|72|326|[3的幂](https://leetcode-cn.com/problems/power-of-three)|[isPowerOfThree]()||easy|
-|73|342|[4的幂](https://leetcode-cn.com/problems/power-of-four)|[isPowerOfFour]()|[5种解法](<https://leetcode-cn.com/problems/power-of-four/solution/4de-mi-by-leetcode/>)|easy|
-|74|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverseString]()||easy|
+|72|326|[3的幂](https://leetcode-cn.com/problems/power-of-three)|[isPowerOfThree](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfThree.java>)||easy|
+|73|342|[4的幂](https://leetcode-cn.com/problems/power-of-four)|[isPowerOfFour](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfFour.java>)|[5种解法](<https://leetcode-cn.com/problems/power-of-four/solution/4de-mi-by-leetcode/>)|easy|
+|74|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverseString](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseString.java>)||easy|
+|75|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|||easy|
+|76|349|[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)|||easy|
+|77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|||easy|
+|||||||
+|||||||
+|||||||
 |||||||
 |||||||
 

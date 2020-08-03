@@ -10,7 +10,24 @@ package com.hly.leetCode.everyday.easy;
  * https://leetcode-cn.com/problems/reverse-string/
  */
 public class ReverseString {
+
     public void reverseString(char[] s) {
+        int i=0, j = s.length-1;
+        while (i<j){
+            char t = s[i];
+            s[i] = s[j];
+            s[j] = t;
+            i++;
+            j--;
+        }
+    }
+    public static void main(String[] args){
+        char [] s = {'h','e','l','l','o'};
+        ReverseString reverseString = new ReverseString();
+        reverseString.reverseString(s);
+        for (char c : s) {
+            System.out.print(c+" ");
+        }
 
     }
 }
