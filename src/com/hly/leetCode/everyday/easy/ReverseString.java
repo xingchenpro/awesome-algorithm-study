@@ -28,6 +28,5 @@ public class ReverseString {
         for (char c : s) {
             System.out.print(c+" ");
         }
-
     }
 }
