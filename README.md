@@ -76,7 +76,7 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |72|326|[3的幂](https://leetcode-cn.com/problems/power-of-three)|[isPowerOfThree](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfThree.java>)||easy|
 |73|342|[4的幂](https://leetcode-cn.com/problems/power-of-four)|[isPowerOfFour](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfFour.java>)|[5种解法](<https://leetcode-cn.com/problems/power-of-four/solution/4de-mi-by-leetcode/>)|easy|
 |74|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverseString](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseString.java>)||easy|
-|75|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|||easy|
+|75|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[reverseVowels]()||easy|
 |76|349|[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)|||easy|
 |77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|||easy|
 |||||||
