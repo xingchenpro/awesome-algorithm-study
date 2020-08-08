@@ -10,7 +10,6 @@ package com.hly.leetCode.everyday.easy;
  * https://leetcode-cn.com/problems/intersection-of-two-arrays/
  */
 public class Intersection {
-
     public int[] intersection(int[] nums1, int[] nums2) {
 
     }
