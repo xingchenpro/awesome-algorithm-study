@@ -13,6 +13,5 @@ public class Intersection {
     public int[] intersection(int[] nums1, int[] nums2) {
     }
     public static void main(String[] args) {
-
     }
 }
