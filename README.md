@@ -80,11 +80,12 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |76|349|[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[intersection]()||easy|
 |77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[intersect]()||easy|
 |78|367|[有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square)|[isPerfectSquare]()||easy|
-|79|371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|||easy|
-|80|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|||easy|
+|79|371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|[getSum]()|[getSum](<https://leetcode-cn.com/problems/sum-of-two-integers/solution/0msfu-xian-ji-suan-ji-zui-ji-ben-de-jia-fa-cao-zuo/>)|easy|
+|80|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[guessNumber]()|二分|easy|
 |||||||
 |||||||
 
 
 
 [easy 代码总览](<https://github.com/huangliangyun/LeetCode/tree/master/src/com/hly/leetCode/everyday/easy>)
+
