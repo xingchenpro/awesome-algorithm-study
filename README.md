@@ -78,10 +78,10 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |74|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverseString](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseString.java>)||easy|
 |75|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[reverseVowels]()||easy|
 |76|349|[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[intersection]()||easy|
-|77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[isPerfectSquare]()||easy|
-|||||||
-|||||||
-|||||||
+|77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[intersect]()||easy|
+|78|367|[有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square)|[isPerfectSquare]()||easy|
+|79|371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|||easy|
+|80|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|||easy|
 |||||||
 |||||||
 
