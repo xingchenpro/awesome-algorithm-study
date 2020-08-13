@@ -82,9 +82,9 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |78|367|[有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square)|[isPerfectSquare]()||easy|
 |79|371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|[getSum]()|[getSum](<https://leetcode-cn.com/problems/sum-of-two-integers/solution/0msfu-xian-ji-suan-ji-zui-ji-ben-de-jia-fa-cao-zuo/>)|easy|
 |80|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[guessNumber]()|二分|easy|
-|81|383|[赎金信](https://leetcode-cn.com/problems/ransom-note)|||easy|
-|82|387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|||easy|
-|83|389|[找不同](https://leetcode-cn.com/problems/find-the-difference)|||easy|
+|81|383|[赎金信](https://leetcode-cn.com/problems/ransom-note)|[canConstruct]()||easy|
+|82|387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[firstUniqChar]()||easy|
+|83|389|[找不同](https://leetcode-cn.com/problems/find-the-difference)|[findTheDifference]()||easy|
 |||||||
 |||||||
 
