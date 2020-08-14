@@ -32,6 +32,5 @@ public class FindTheDifference {
 
     public static void main(String[] args) {
         System.out.println(new FindTheDifference().findTheDifference("abcd", "abcde"));
-
     }
 }

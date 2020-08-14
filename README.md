@@ -1,4 +1,6 @@
-LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时间的力量，做时间的朋友
+每天 3 道，干掉 LeetCode ，相信时间的力量，做时间的朋友。每一道题都是一种思维，一种思想，刷题的意义在于能够扩展你的思维，让你在面对问题时能有更多的思路，有更多的解决问题的方法。
+
+
 
 | 序号 | 题号 | 题目 | 代码 | 题解 | 难度 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -76,15 +78,18 @@ LeetCode  | Java | 练习 | 复习 | 总结 | 终结 |  每天 3 道 | 相信时
 |72|326|[3的幂](https://leetcode-cn.com/problems/power-of-three)|[isPowerOfThree](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfThree.java>)||easy|
 |73|342|[4的幂](https://leetcode-cn.com/problems/power-of-four)|[isPowerOfFour](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPowerOfFour.java>)|[5种解法](<https://leetcode-cn.com/problems/power-of-four/solution/4de-mi-by-leetcode/>)|easy|
 |74|344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverseString](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseString.java>)||easy|
-|75|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[reverseVowels]()||easy|
-|76|349|[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[intersection]()||easy|
-|77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[intersect]()||easy|
-|78|367|[有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square)|[isPerfectSquare]()||easy|
-|79|371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|[getSum]()|[getSum](<https://leetcode-cn.com/problems/sum-of-two-integers/solution/0msfu-xian-ji-suan-ji-zui-ji-ben-de-jia-fa-cao-zuo/>)|easy|
-|80|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[guessNumber]()|二分|easy|
-|81|383|[赎金信](https://leetcode-cn.com/problems/ransom-note)|[canConstruct]()||easy|
-|82|387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[firstUniqChar]()||easy|
-|83|389|[找不同](https://leetcode-cn.com/problems/find-the-difference)|[findTheDifference]()||easy|
+|75|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[reverseVowels](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ReverseVowels.java>)||easy|
+|76|349|[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)|[intersection](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/Intersection.java>)||easy|
+|77|350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[intersect](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/Intersect.java>)||easy|
+|78|367|[有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square)|[isPerfectSquare](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/IsPerfectSquare.java>)||easy|
+|79|371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|[getSum](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GetSum.java>)|[getSum](<https://leetcode-cn.com/problems/sum-of-two-integers/solution/0msfu-xian-ji-suan-ji-zui-ji-ben-de-jia-fa-cao-zuo/>)|easy|
+|80|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[guessNumber](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/GuessNumber.java>)|二分|easy|
+|81|383|[赎金信](https://leetcode-cn.com/problems/ransom-note)|[canConstruct](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/CanConstruct.java>)||easy|
+|82|387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[firstUniqChar](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FirstUniqChar.java>)||easy|
+|83|389|[找不同](https://leetcode-cn.com/problems/find-the-difference)|[findTheDifference](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FindTheDifference.java>)||easy|
+|84|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence)|||easy|
+|85|401|[二进制手表](https://leetcode-cn.com/problems/binary-watch)|||easy|
+|86|404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|||easy|
 |||||||
 |||||||
 
