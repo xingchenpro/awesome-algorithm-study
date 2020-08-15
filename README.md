@@ -88,6 +88,10 @@
 |84|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence)|[isSubsequence]()||easy|
 |85|401|[二进制手表](https://leetcode-cn.com/problems/binary-watch)|[readBinaryWatch]()|[二进制手表](<https://leetcode-cn.com/problems/binary-watch/solution/401er-jin-zhi-shou-biao-integerbitcount-fa-easyti-/>)|easy|
 |86|404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|[sumOfLeftLeaves]()||easy|
+|87|405|[数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)|[toHex]()||easy|
+|88|409|[最长回文串](https://leetcode-cn.com/problems/longest-palindrome)|[longestPalindrome]()|[最长回文串](<https://leetcode-cn.com/problems/longest-palindrome/solution/zui-chang-hui-wen-chuan-by-leetcode-solution/>)|easy|
+|89|412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|||easy|
+|||||||
 |||||||
 |||||||
 
