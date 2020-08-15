@@ -1,6 +1,4 @@
-每天 3 道，干掉 LeetCode ，相信时间的力量，做时间的朋友。每一道题都是一种思维，一种思想，刷题的意义在于能够扩展你的思维，让你在面对问题时能有更多的思路，有更多的解决问题的方法。
-
-
+每天 3 道，干掉 LeetCode ，相信时间的力量，做时间的朋友。每一道题都是一种思维，一种思想，刷题的意义在于能够扩展你的思维，让你在面对问题时能有更多的思路，有更多的解决问题的方法。不仅如此，在这个过程中，对于数据结构的应用，能够有更深入的理解，而且还能不断积累更多 Java 语法，从而巧妙解决更多问题。
 
 | 序号 | 题号 | 题目 | 代码 | 题解 | 难度 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -87,9 +85,9 @@
 |81|383|[赎金信](https://leetcode-cn.com/problems/ransom-note)|[canConstruct](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/CanConstruct.java>)||easy|
 |82|387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[firstUniqChar](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FirstUniqChar.java>)||easy|
 |83|389|[找不同](https://leetcode-cn.com/problems/find-the-difference)|[findTheDifference](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FindTheDifference.java>)||easy|
-|84|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence)|||easy|
-|85|401|[二进制手表](https://leetcode-cn.com/problems/binary-watch)|||easy|
-|86|404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|||easy|
+|84|392|[判断子序列](https://leetcode-cn.com/problems/is-subsequence)|[isSubsequence]()||easy|
+|85|401|[二进制手表](https://leetcode-cn.com/problems/binary-watch)|[readBinaryWatch]()|[二进制手表](<https://leetcode-cn.com/problems/binary-watch/solution/401er-jin-zhi-shou-biao-integerbitcount-fa-easyti-/>)|easy|
+|86|404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|[sumOfLeftLeaves]()||easy|
 |||||||
 |||||||
 

@@ -14,3 +14,25 @@ https://leetcode-cn.com/problems/single-number/
 A-Z 65-90
 a-z 97-122
 
+字符串转化
+String.format("%d:%02d", i, j)
+
+int long 类型的数在二进制中 1 的个数
+Integer.bitCount(i)
+
+hashMap get 为空时获取默认
+map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
