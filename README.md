@@ -90,8 +90,10 @@
 |86|404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|[sumOfLeftLeaves](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/SumOfLeftLeaves.java>)||easy|
 |87|405|[数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)|[toHex](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ToHex.java>)||easy|
 |88|TD 409|[最长回文串](https://leetcode-cn.com/problems/longest-palindrome)|[longestPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/LongestPalindrome.java>)|[最长回文串](<https://leetcode-cn.com/problems/longest-palindrome/solution/zui-chang-hui-wen-chuan-by-leetcode-solution/>)|easy|
-|89|412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|[fizzBuzz]()||easy|
-|||||||
+|89|412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|[fizzBuzz](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FizzBuzz.java>)||easy|
+|90|||||easy|
+|91|||||easy|
+|92|||||easy|
 |||||||
 |||||||
 
