@@ -11,9 +11,9 @@ package com.hly.leetCode.everyday.easy;
  */
 public class LongestPalindrome {
 
-    public int longestPalindrome(String s) {
+    /*public int longestPalindrome(String s) {
 
-    }
+    }*/
 
     public static void main(String[] args) {
 
