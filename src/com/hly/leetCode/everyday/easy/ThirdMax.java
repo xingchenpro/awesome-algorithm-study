@@ -1,7 +1,10 @@
 package com.hly.leetCode.everyday.easy;
 
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.PriorityQueue;
 import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * @author :hly
@@ -15,16 +18,34 @@ import java.util.TreeSet;
 public class ThirdMax {
 
     public int thirdMax(int[] nums) {
-        int a,b,c;
-        for (int i=0;i<nums.length;i++){
-
+        Set<Integer> set = new HashSet<>();
+        for (int i : nums) {
+            set.add(i);
         }
-
-
-
+        if (set.size() < 3) {
+            Arrays.sort(nums);
+            return nums[nums.length - 1];
+        }
+        //默认小顶堆
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        for (int i : set) {
+            if (queue.size() < 3) {
+                queue.offer(i);
+            } else {
+                if (queue.size() == 3 && queue.peek() < i) {
+                    queue.poll();
+                    queue.offer(i);
+                }
+            }
+        }
+        return queue.peek();
     }
 
     public static void main(String[] args) {
+        System.out.println(new ThirdMax().thirdMax(new int[]{3, 2, 1}));//1
+        System.out.println(new ThirdMax().thirdMax(new int[]{2, 1}));//2
+        System.out.println(new ThirdMax().thirdMax(new int[]{2, 2, 3, 1}));//2
+        System.out.println(new ThirdMax().thirdMax(new int[]{1, 1, 2}));//2
 
 
     }

@@ -23,8 +23,9 @@ Integer.bitCount(i)
 hashMap get 为空时获取默认
 map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
 
-
-
+PriorityQueue<Integer> queue = new PriorityQueue<>();
+默认小顶堆
+https://www.jianshu.com/p/f1fd9b82cb72
 
 
 

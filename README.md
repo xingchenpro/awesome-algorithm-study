@@ -92,8 +92,8 @@
 |88|TD 409|[最长回文串](https://leetcode-cn.com/problems/longest-palindrome)|[longestPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/LongestPalindrome.java>)|[最长回文串](<https://leetcode-cn.com/problems/longest-palindrome/solution/zui-chang-hui-wen-chuan-by-leetcode-solution/>)|easy|
 |89|412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|[fizzBuzz](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FizzBuzz.java>)||easy|
 |90|414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[thirdMax]()||easy|
-|91|415|[字符串相加](https://leetcode-cn.com/problems/add-strings)|||easy|
-|92|434|[字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|||easy|
+|91|415|[字符串相加](https://leetcode-cn.com/problems/add-strings)|[addStrings]()|[addStrings](<https://leetcode-cn.com/problems/add-strings/submissions/>)|easy|
+|92|434|[字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|[countSegments]()|[countSegments](<https://leetcode-cn.com/problems/number-of-segments-in-a-string/solution/zi-fu-chuan-zhong-de-dan-ci-shu-by-leetcode/>)|easy|
 |||||||
 |||||||
 
