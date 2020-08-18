@@ -94,6 +94,9 @@
 |90|414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[thirdMax]()||easy|
 |91|415|[字符串相加](https://leetcode-cn.com/problems/add-strings)|[addStrings]()|[addStrings](<https://leetcode-cn.com/problems/add-strings/submissions/>)|easy|
 |92|434|[字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|[countSegments]()|[countSegments](<https://leetcode-cn.com/problems/number-of-segments-in-a-string/solution/zi-fu-chuan-zhong-de-dan-ci-shu-by-leetcode/>)|easy|
+|93|441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|||easy|
+|94|443|[压缩字符串](https://leetcode-cn.com/problems/string-compression)|||easy|
+|95|447|[回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs)|||easy|
 |||||||
 |||||||
 
