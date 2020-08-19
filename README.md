@@ -13,7 +13,7 @@
 |9|27|[移除元素](<https://leetcode-cn.com/problems/remove-element/>)|[removeElement](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/RemoveElement.java)||easy|
 |10|28|[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[strStr](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/StrStr.java>)||easy|
 |11|35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|[searchInsert](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/SearchInsert.java>)|[搜索插入位置](<https://leetcode-cn.com/problems/search-insert-position/solution/hua-jie-suan-fa-35-sou-suo-cha-ru-wei-zhi-by-guanp/>)|easy|
-|12|TODO 38|[外观数列](https://leetcode-cn.com/problems/count-and-say/)|[countAndSay]()||easy|
+|12|TD 38|[外观数列](https://leetcode-cn.com/problems/count-and-say/)|[countAndSay]()||easy|
 |13|53|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[maxSubArray](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/MaxSubArray.java>)||easy|
 |14|58|[最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)|[lengthOfLastWord](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/LengthOfLastWord.java>)||easy|
 |15|66|[加一](https://leetcode-cn.com/problems/plus-one/)|[plusOne](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/PlusOne.java>)||easy|
@@ -91,12 +91,15 @@
 |87|405|[数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)|[toHex](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ToHex.java>)||easy|
 |88|TD 409|[最长回文串](https://leetcode-cn.com/problems/longest-palindrome)|[longestPalindrome](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/LongestPalindrome.java>)|[最长回文串](<https://leetcode-cn.com/problems/longest-palindrome/solution/zui-chang-hui-wen-chuan-by-leetcode-solution/>)|easy|
 |89|412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|[fizzBuzz](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/FizzBuzz.java>)||easy|
-|90|414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[thirdMax]()||easy|
-|91|415|[字符串相加](https://leetcode-cn.com/problems/add-strings)|[addStrings]()|[addStrings](<https://leetcode-cn.com/problems/add-strings/submissions/>)|easy|
-|92|434|[字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|[countSegments]()|[countSegments](<https://leetcode-cn.com/problems/number-of-segments-in-a-string/solution/zi-fu-chuan-zhong-de-dan-ci-shu-by-leetcode/>)|easy|
-|93|441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|||easy|
-|94|443|[压缩字符串](https://leetcode-cn.com/problems/string-compression)|||easy|
-|95|447|[回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs)|||easy|
+|90|414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[thirdMax](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/ThirdMax.java>)||easy|
+|91|415|[字符串相加](https://leetcode-cn.com/problems/add-strings)|[addStrings](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/AddStrings.java>)|[addStrings](<https://leetcode-cn.com/problems/add-strings/submissions/>)|easy|
+|92|434|[字符串中的单词数](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|[countSegments](<https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/CountSegments.java>)|[countSegments](<https://leetcode-cn.com/problems/number-of-segments-in-a-string/solution/zi-fu-chuan-zhong-de-dan-ci-shu-by-leetcode/>)|easy|
+|93|441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|[arrangeCoins]()||easy|
+|94|TD 443|[压缩字符串](https://leetcode-cn.com/problems/string-compression)|[compress]()||easy|
+|95|TD 447|[回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs)|[numberOfBoomerangs]()||easy|
+|96|448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[findDisappearedNumbers]()||easy|
+|97|453|[最小移动次数使数组元素相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|||easy|
+|98|455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies)||||
 |||||||
 |||||||
 
