@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class MinMoves {
 
     //题目的解释不清楚，应该是每次移动，除了移动的数，其他的数都+1
-    //n-1 个数 +1，为 第 n 个数 -1，每次让一个值减去1，使得所有的值相等，那理想情况就是每个值最终等于最小值
+    //n 个数，n-1 个数 +1，可理解为第 1 个数 -1，每次让一个值减去1，使得所有的值相等，那理想情况就是每个值最终等于最小值
     public int minMoves(int[] nums) {
         Arrays.sort(nums);
         int count = 0;
