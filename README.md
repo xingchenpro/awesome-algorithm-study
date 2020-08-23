@@ -98,7 +98,7 @@
 |94|TD 443|[压缩字符串](https://leetcode-cn.com/problems/string-compression)|[compress]()||easy|
 |95|TD 447|[回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs)|[numberOfBoomerangs]()||easy|
 |96|448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[findDisappearedNumbers]()||easy|
-|97|TD 453|[最小移动次数使数组元素相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|||easy|
+|97|TD 453|[最小移动次数使数组元素相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|[minMoves]()|[最小移动次数使数组元素相等](<https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/solution/zui-xiao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-d/>)|easy|
 |98|455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies)||||
 |||||||
 |||||||
