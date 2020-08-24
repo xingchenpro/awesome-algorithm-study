@@ -100,6 +100,9 @@
 |96|448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[findDisappearedNumbers]()||easy|
 |97|453|[最小移动次数使数组元素相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|[minMoves]()|[最小移动次数使数组元素相等](<https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/solution/zui-xiao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-d/>)|easy|
 |98|455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies)|[findContentChildren]()||easy|
+|99|461|[汉明距离](https://leetcode-cn.com/problems/hamming-distance)|||easy|
+|100|463|[岛屿的周长](https://leetcode-cn.com/problems/island-perimeter)|||easy|
+|101|475|[供暖器](https://leetcode-cn.com/problems/heaters)|||easy|
 |||||||
 |||||||
 
