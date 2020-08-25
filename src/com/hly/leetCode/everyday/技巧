@@ -8,7 +8,7 @@ https://blog.csdn.net/jdsjlzx/article/details/41654295
 正则表达式和替换
 s.toUpperCase().replaceAll("[^a-zA-Z0-9]", "")
 
-异或
+异或:相同为0，不同为1
 https://leetcode-cn.com/problems/single-number/
 
 A-Z 65-90
