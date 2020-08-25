@@ -103,6 +103,9 @@
 |99|461|[汉明距离](https://leetcode-cn.com/problems/hamming-distance)|[hammingDistance]()||easy|
 |100|TD 463|[岛屿的周长](https://leetcode-cn.com/problems/island-perimeter)|[islandPerimeter]()||easy|
 |101|TD 475|[供暖器](https://leetcode-cn.com/problems/heaters)|[findRadius]()||easy|
+|102|476|[数字的补数](https://leetcode-cn.com/problems/number-complement)|[findComplement]()||easy|
+|103|TD 482|[密钥格式化](https://leetcode-cn.com/problems/license-key-formatting)|[licenseKeyFormatting]()||easy|
+|104|485|[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones)|[findMaxConsecutiveOnes]()||easy|
 |||||||
 |||||||
 
