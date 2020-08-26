@@ -18,6 +18,7 @@ public class FindMaxConsecutiveOnes {
             if (nums[i] == 1) {
                 count++;
                 if (max < count) {
+
                     max = count;
                 }
             } else {
