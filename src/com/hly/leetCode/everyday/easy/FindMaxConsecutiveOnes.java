@@ -23,6 +23,7 @@ public class FindMaxConsecutiveOnes {
                 }
             } else {
                 count = 0;
+
             }
         }
         return max;
