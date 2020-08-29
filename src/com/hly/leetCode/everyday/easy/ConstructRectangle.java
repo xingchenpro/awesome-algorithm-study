@@ -19,7 +19,6 @@ public class ConstructRectangle {
         }
         return new int[]{area / w, w};
     }
-
     public static void main(String[] args) {
         int[] res = new ConstructRectangle().constructRectangle(4);//2,2
         int[] res1 = new ConstructRectangle().constructRectangle(1);//1,1
