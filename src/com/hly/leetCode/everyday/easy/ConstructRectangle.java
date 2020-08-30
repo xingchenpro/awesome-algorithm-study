@@ -9,7 +9,6 @@ package com.hly.leetCode.everyday.easy;
  * @desc : 492. 构造矩形
  * https://leetcode-cn.com/problems/construct-the-rectangle/
  */
-
 public class ConstructRectangle {
 
     public int[] constructRectangle(int area) {
