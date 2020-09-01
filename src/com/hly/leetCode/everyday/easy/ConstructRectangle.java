@@ -25,6 +25,5 @@ public class ConstructRectangle {
         for (int re : res3) {
             System.out.print(re + " ");
         }
-
     }
 }
