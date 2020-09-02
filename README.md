@@ -107,7 +107,7 @@
 |103|TD 482|[密钥格式化](https://leetcode-cn.com/problems/license-key-formatting)|[licenseKeyFormatting]()||easy|
 |104|485|[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones)|[findMaxConsecutiveOnes]()||easy|
 |105|492|[构造矩形](https://leetcode-cn.com/problems/construct-the-rectangle/)|[constructRectangle]()||easy|
-|106|496||||easy|
+|106|496|[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i)|||easy|
 |||||||
 |||||||
 
