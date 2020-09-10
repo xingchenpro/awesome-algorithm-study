@@ -27,7 +27,8 @@ PriorityQueue<Integer> queue = new PriorityQueue<>();
 默认小顶堆
 https://www.jianshu.com/p/f1fd9b82cb72
 
-
+Java split ： 或，可以使用多个分隔符
+https://blog.csdn.net/weixin_38569499/article/details/87947913
 
 
 

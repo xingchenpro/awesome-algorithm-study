@@ -10,7 +10,7 @@ import java.util.Stack;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @WeChat :liangyun2021
  * @date :2020/9/2
- * @desc : TODO 496. 下一个更大元素 I
+ * @desc : 496. 下一个更大元素 I
  * https://leetcode-cn.com/problems/next-greater-element-i/
  */
 public class NextGreaterElement {
