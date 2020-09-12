@@ -23,9 +23,12 @@ public class FindMode {
         }
     }
 
+    //保存众数，出现频率最高的数
     private List<Integer> result = new ArrayList<>();
     private TreeNode pre;
+    //保存最大出现频率
     private int max = 0;
+    //保存当前数出现频率
     private int cur = 1;
 
     public int[] findMode(TreeNode root) {
@@ -33,13 +36,23 @@ public class FindMode {
             return new int[]{};
         }
         inorder(root);
-        int[] a = new int[result.size()];
+        int[] res = new int[result.size()];
         for (int i = 0; i < result.size(); i++) {
-            a[i] = result.get(i);
+            res[i] = result.get(i);
         }
-        return a;
+        return res;
     }
 
+    //中序遍历，左中右
+
+    /**
+     * 1
+        \
+         2
+        /
+       2
+     * @param root
+     */
     private void inorder(TreeNode root) {
         if (root == null)
             return;
@@ -54,6 +67,7 @@ public class FindMode {
         if (cur == max) {
             result.add(root.val);
         }
+        //当前数出现次数大于过往的数的出现次数
         if (cur > max) {
             result.clear();
             result.add(root.val);
@@ -61,9 +75,5 @@ public class FindMode {
         }
         pre = root;
         inorder(root.right);
-
-
     }
-
-
 }
