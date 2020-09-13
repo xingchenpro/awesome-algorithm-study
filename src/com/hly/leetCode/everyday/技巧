@@ -30,6 +30,10 @@ https://www.jianshu.com/p/f1fd9b82cb72
 Java split ： 或，可以使用多个分隔符
 https://blog.csdn.net/weixin_38569499/article/details/87947913
 
+一个数转化为 7 进制
+Integer.toString(num, 7);
+https://baike.baidu.com/item/%E5%85%AB%E8%BF%9B%E5%88%B6/4230825?fr=aladdin
+
 
 
 

@@ -108,9 +108,9 @@
 |104|485|[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones)|[findMaxConsecutiveOnes]()||easy|
 |105|492|[构造矩形](https://leetcode-cn.com/problems/construct-the-rectangle/)|[constructRectangle]()||easy|
 |106|496|[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i)|[nextGreaterElement]()|[单调栈](<https://leetcode-cn.com/problems/next-greater-element-i/solution/xia-yi-ge-geng-da-yuan-su-i-by-leetcode/>)|easy|
-|107|500|[键盘行](https://leetcode-cn.com/problems/keyboard-row)|[findWords]()|||
-|108|501|[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)||||
-|||||||
+|107|500|[键盘行](https://leetcode-cn.com/problems/keyboard-row)|[findWords]()||easy|
+|108|501|[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)|[findMode]()||easy|
+|109|504|[七进制数](https://leetcode-cn.com/problems/base-7)|[convertToBase7]()|||
 |||||||
 |||||||
 
