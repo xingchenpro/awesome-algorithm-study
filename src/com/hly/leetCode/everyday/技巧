@@ -8,6 +8,7 @@ https://blog.csdn.net/jdsjlzx/article/details/41654295
 正则表达式和替换
 s.toUpperCase().replaceAll("[^a-zA-Z0-9]", "")
 
+
 异或:相同为0，不同为1
 https://leetcode-cn.com/problems/single-number/
 
@@ -32,11 +33,10 @@ https://blog.csdn.net/weixin_38569499/article/details/87947913
 
 一个数转化为 7 进制
 Integer.toString(num, 7);
-https://baike.baidu.com/item/%E5%85%AB%E8%BF%9B%E5%88%B6/4230825?fr=aladdin
-
-
-
-
+100 转化为7进制
+100/7=14 余 2 //2
+14/7=2 余 0 //20
+结果为 202 //20 2
 
 
 
