@@ -111,7 +111,7 @@
 |107|500|[键盘行](https://leetcode-cn.com/problems/keyboard-row)|[findWords]()||easy|
 |108|501|[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)|[findMode]()||easy|
 |109|504|[七进制数](https://leetcode-cn.com/problems/base-7)|[convertToBase7]()||easy|
-|110|506|[相对名次](https://leetcode-cn.com/problems/relative-ranks)|[findRelativeRanks]()||easy|
+|110|520|[检测大写字母](https://leetcode-cn.com/problems/detect-capital)|[detectCapitalUse]()||easy|
 |||||||
 |||||||
 |||||||

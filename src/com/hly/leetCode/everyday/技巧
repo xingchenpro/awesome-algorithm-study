@@ -38,6 +38,12 @@ Integer.toString(num, 7);
 14/7=2 余 0 //20
 结果为 202 //20 2
 
+正则匹配
+word.matches("[a-z]+|[A-Z][a-z]*|[A-Z]+");
+//"+"表示匹配前bai面的子表达式一次或多次(大于等于1次）
+//"*"零次或多次，和+区别在于可以没有
+https://zhidao.baidu.com/question/297472922.html
+
 
 
 
