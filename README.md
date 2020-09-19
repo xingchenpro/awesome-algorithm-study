@@ -1,5 +1,3 @@
-每天 3 道，干掉 LeetCode ，相信时间的力量，做时间的朋友。每一道题都是一种思维，一种思想，刷题的意义在于能够扩展你的思维，让你在面对问题时能有更多的思路，有更多的解决问题的方法。不仅如此，在这个过程中，对于数据结构的应用，能够有更深入的理解，而且还能不断积累更多 Java 语法，从而巧妙解决更多问题。
-
 | 序号 | 题号 | 题目 | 代码 | 题解 | 难度 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |1|1|[两数之和](https://leetcode-cn.com/problems/two-sum/)|[twoSum](https://github.com/huangliangyun/LeetCode/blob/master/src/com/hly/leetCode/everyday/easy/TwoSum.java) | |easy|
@@ -112,7 +110,7 @@
 |108|501|[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)|[findMode]()||easy|
 |109|504|[七进制数](https://leetcode-cn.com/problems/base-7)|[convertToBase7]()||easy|
 |110|520|[检测大写字母](https://leetcode-cn.com/problems/detect-capital)|[detectCapitalUse]()||easy|
-|||||||
+|111||||||
 |||||||
 |||||||
 
