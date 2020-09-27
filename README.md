@@ -110,7 +110,7 @@
 |108|501|[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)|[findMode]()||easy|
 |109|504|[七进制数](https://leetcode-cn.com/problems/base-7)|[convertToBase7]()||easy|
 |110|520|[检测大写字母](https://leetcode-cn.com/problems/detect-capital)|[detectCapitalUse]()||easy|
-|111||||||
+|111|521|[最长特殊序列 Ⅰ](<https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/>)|[findLUSlength]()||easy|
 |||||||
 |||||||
 
