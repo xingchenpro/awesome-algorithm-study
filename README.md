@@ -111,7 +111,7 @@
 |109|504|[七进制数](https://leetcode-cn.com/problems/base-7)|[convertToBase7]()||easy|
 |110|520|[检测大写字母](https://leetcode-cn.com/problems/detect-capital)|[detectCapitalUse]()||easy|
 |111|521|[最长特殊序列 Ⅰ](<https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/>)|[findLUSlength]()||easy|
-|||||||
+|112|530|[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|[getMinimumDifference]()||easy|
 |||||||
 
 
