@@ -13,17 +13,19 @@ public class ReverseStr {
 
     //每隔k个反转k个，末尾不够k个时全部反转
     public String reverseStr(String s, int k) {
-        StringBuilder sb = new StringBuilder();
+        char[] c = s.toCharArray();
         int n = s.length();
-        for (int i = 0; i < s.length(); i += 2 * k) {
-            if (i + k - 1 < n - 1) {
-                sb.append(reverse(s.substring(i, i + k - 1)));
-            } else {
-                sb.append(reverse(s.substring(i, s.length() - 1)));
+        for (int start = 0; start < s.length(); start += 2 * k) {
+            int i = start, j = Math.min(start + k - 1, n - 1);
+            while (i < j) {
+                char t = c[i];
+                c[i] = c[j];
+                c[j] = t;
+                i++;
+                j--;
             }
-            sb.append(s.substring(i+k-1,2*k));
         }
-        return sb.toString();
+        return new String(c);
     }
 
     private String reverse(String s) {
