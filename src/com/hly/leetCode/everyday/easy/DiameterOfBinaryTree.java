@@ -25,6 +25,7 @@ public class DiameterOfBinaryTree {
     public int diameterOfBinaryTree(TreeNode root) {
         res = 1;
         depth(root);
+        //二叉树的直径就是所有节点的最大值减一
         return res-1;
     }
 

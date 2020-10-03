@@ -115,6 +115,7 @@
 |113|TD 532|[数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array)|[findPairs]()|[findPairs](<https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/solution/java-tong-ji-yuan-su-ge-shu-by-gov-2/>)|easy|
 |114|541|[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|[reverseStr]()||easy|
 |115|543|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree)|[diameterOfBinaryTree]()||easy|
+|116|551|[学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i)|[checkRecord]()||easy|
 |||||||
 
 
