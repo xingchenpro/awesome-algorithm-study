@@ -24,7 +24,6 @@ public class ReverseWords {
     }
 
     private String reverse(char [] chars){
-
         int i = 0,j = chars.length-1;
         while (i<j){
             char t = chars[i];
@@ -37,8 +36,7 @@ public class ReverseWords {
     }
 
     public static void main(String[] args) {
-        System.out.println(new ReverseWords().reverseWords("Let's take LeetCode contest"));
-
+        System.out.println(new ReverseWords().reverseWords("Let's take LeetCode contest"));//s'teL ekat edoCteeL tsetnoc
 
     }
 }
