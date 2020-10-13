@@ -121,8 +121,8 @@
 |119|561|[数组拆分 I](https://leetcode-cn.com/problems/array-partition-i/)|[arrayPairSum]()||easy|
 |120|563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/)|[findTilt]()|[递归](<https://leetcode-cn.com/problems/binary-tree-tilt/solution/er-cha-shu-de-po-du-by-leetcode/>)|easy|
 |121|TD 566|[重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix)|[matrixReshape]()||easy|
-|122|TD 572|[另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)|[isSubtree]()|||
-|||||||
+|122|TD 572|[另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)|[isSubtree]()||easy|
+|123|575|[分糖果](https://leetcode-cn.com/problems/distribute-candies)|[distributeCandies]()|[分糖果](<https://leetcode-cn.com/problems/distribute-candies/solution/fen-tang-guo-by-leetcode/>)|easy|
 |||||||
 
 
