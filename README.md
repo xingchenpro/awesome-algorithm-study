@@ -124,7 +124,8 @@
 |122|TD 572|[另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)|[isSubtree]()||easy|
 |123|575|[分糖果](https://leetcode-cn.com/problems/distribute-candies)|[distributeCandies]()|[分糖果](<https://leetcode-cn.com/problems/distribute-candies/solution/fen-tang-guo-by-leetcode/>)|easy|
 |124|589|[N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal)|[preorder]()||easy|
-|125|590|[N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal)|||easy|
+|125|590|[N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal)|[postorder]()||easy|
+|126|594|[最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence)|[findLHS]()||easy|
 |||||||
 
 
