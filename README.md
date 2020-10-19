@@ -126,6 +126,8 @@
 |124|589|[N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal)|[preorder]()||easy|
 |125|590|[N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal)|[postorder]()||easy|
 |126|594|[最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence)|[findLHS]()||easy|
+|127|598|[范围求和 II](https://leetcode-cn.com/problems/range-addition-ii)|||easy|
+|||||||
 |||||||
 
 
