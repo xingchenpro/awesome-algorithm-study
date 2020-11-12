@@ -12,6 +12,5 @@ package com.hly.leetCode.everyday.easy;
 public class MaxCount {
 
     public int maxCount(int m, int n, int[][] ops) {
-
     }
 }
