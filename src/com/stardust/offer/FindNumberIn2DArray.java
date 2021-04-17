@@ -17,6 +17,7 @@ public class FindNumberIn2DArray {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
+        //右上
         int row = 0, col = matrix[0].length - 1;
         //临界条件 >=0
         while (row < matrix.length && col >= 0) {
