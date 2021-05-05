@@ -11,7 +11,7 @@ package com.stardust.offer;
  * F(0) = 0,   F(1) = 1
  * F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
  */
-public class Fib1 {
+public class Fib {
 
     //递归(超时) 2^n
     public int fib1(int n) {
@@ -51,19 +51,19 @@ public class Fib1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Fib1().fib1(2));//1
-        System.out.println(new Fib1().fib1(5));//5
-        System.out.println(new Fib1().fib1(8));//21
+        System.out.println(new Fib().fib1(2));//1
+        System.out.println(new Fib().fib1(5));//5
+        System.out.println(new Fib().fib1(8));//21
 
-        System.out.println(new Fib1().fib2(2));//1
-        System.out.println(new Fib1().fib2(5));//5
-        System.out.println(new Fib1().fib2(8));//21
-        System.out.println(new Fib1().fib2(0));//1
+        System.out.println(new Fib().fib2(2));//1
+        System.out.println(new Fib().fib2(5));//5
+        System.out.println(new Fib().fib2(8));//21
+        System.out.println(new Fib().fib2(0));//1
 
-        System.out.println(new Fib1().fib3(2));//1
-        System.out.println(new Fib1().fib3(5));//5
-        System.out.println(new Fib1().fib3(8));//21
-        System.out.println(new Fib1().fib3(0));//1
+        System.out.println(new Fib().fib3(2));//1
+        System.out.println(new Fib().fib3(5));//5
+        System.out.println(new Fib().fib3(8));//21
+        System.out.println(new Fib().fib3(0));//1
     }
 
 

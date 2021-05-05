@@ -11,14 +11,24 @@ package com.stardust.offer;
  */
 public class MyPow {
 
+    //注意 3 个问题
+    //1、负数
+    //2、小数
+    //3、精确位数
     public double myPow(double x, int n) {
-
-
+        double res = 1.0;
+        while (n > 0) {
+            res *= x;
+            n--;
+        }
+        return n < 0 ? 1 / res : res;
     }
 
 
     public static void main(String[] args) {
-
+        System.out.println(new MyPow().myPow(2.00000, 10));
+        System.out.println(new MyPow().myPow(2.10000, 3));
+        System.out.println(new MyPow().myPow(2.00000, -2));
 
     }
 }
