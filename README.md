@@ -21,7 +21,7 @@
 | 17   | 15     | 二进制中 1 的个数    | [HammingWeight](https://github.com/huangliangyun/LeetCode/blob/master/src/com/stardust/offer/HammingWeight.java) |      |      |
 | 18   | 16     | 数值的整数次方       | [MyPow](https://github.com/huangliangyun/LeetCode/blob/master/src/com/stardust/offer/MyPow.java) |      |      |
 | 19   | 17     | 打印从1到最大的n位数 | [PrintNumbers]()                                             |      |      |
-| 20   |        |                      |                                                              |      |      |
+| 20   | 18     | 删除链表的节点       | [DeleteNode]()                                               |      |      |
 | 21   |        |                      |                                                              |      |      |
 | 22   |        |                      |                                                              |      |      |
 | 23   |        |                      |                                                              |      |      |
