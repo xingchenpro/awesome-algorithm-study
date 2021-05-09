@@ -14,6 +14,7 @@ public class Exchange {
     public int[] exchange(int[] nums) {
         int left = 0, right = nums.length - 1;
         while (left < right) {
+            //left<right 防止溢出，如果都是奇数，会一直循环
             while (nums[left] % 2 != 0 && left < right) {
                 left++;
             }
@@ -23,6 +24,9 @@ public class Exchange {
             int temp = nums[left];
             nums[left] = nums[right];
             nums[right] = temp;
+            //交换后不忘迭代
+            left++;
+            right--;
         }
         return nums;
     }
@@ -30,7 +34,8 @@ public class Exchange {
     public static void main(String[] args) {
 
         int[] res = new Exchange().exchange(new int[]{1, 2, 3, 4});
-        for (int re : res) {
+        int[] res2 = new Exchange().exchange(new int[]{1, 3, 5});
+        for (int re : res2) {
             System.out.print(re + " ");
         }
     }
