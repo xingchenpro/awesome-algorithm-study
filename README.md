@@ -35,8 +35,8 @@
 | 29   | 27     | 二叉树的镜像(翻转二叉树)       | [MirrorTree]()                                               |      |      |
 | 30   | 28     | 对称的二叉树                   | [IsSymmetric]()                                              |      |      |
 | 31   | 29     | *顺时针打印矩阵                | [SpiralOrder]()                                              |      |      |
-| 32   | 30     | 栈的压入、弹出序列             | [ValidateStackSequences]()                                   |      |      |
-| 33   |        |                                |                                                              |      |      |
+| 32   | 30     | 包含min函数的栈                | [MinStack]()                                                 |      |      |
+| 33   | 31     | 栈的压入、弹出序列             | [ValidateStackSequences]()                                   |      |      |
 | 34   |        |                                |                                                              |      |      |
 | 35   |        |                                |                                                              |      |      |
 | 36   |        |                                |                                                              |      |      |
