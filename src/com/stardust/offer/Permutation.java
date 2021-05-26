@@ -47,7 +47,7 @@ public class Permutation {
                 continue;
             }
             visited[i] = true;
-            dfs(chars, curPath + chars[i], res, visited);
+            dfs(chars, curPath + chars[i], res, visited);//执行到这一步才改变 curPath,//chars[i] 为 true 才会一层一层加上
             visited[i] = false;
 
         }
