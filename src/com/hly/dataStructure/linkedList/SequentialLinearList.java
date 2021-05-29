@@ -3,7 +3,7 @@ package com.hly.dataStructure.linkedList;
 import java.util.Arrays;
 /**
  * @author :hly
- * @github :https://github.com/huangliangyun
+ *
  * @blog :http://www.javahly.com/
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/3/8

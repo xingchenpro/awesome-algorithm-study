@@ -2,7 +2,7 @@ package com.hly.algorithm.introduction.experiment1;
 import java.io.*;
 /**
  * @author :ª∆¡º‘À
- * @github :https://github.com/huangliangyun
+ *
  * @blog :http://www.javahly.com/
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/4/23

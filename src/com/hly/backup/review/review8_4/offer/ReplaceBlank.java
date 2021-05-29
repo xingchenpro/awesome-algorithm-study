@@ -2,7 +2,7 @@ package com.hly.backup.review.review8_4.offer;
 
 /**
  * @author :hly
- * @github :https://github.com/huangliangyun
+ *
  * @blog :http://www.javahly.com/
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/7/30

@@ -2,7 +2,7 @@ package com.hly.leetCode.algorithms2018.math;
 
 /**
  * @author :hly
- * @github :https://github.com/huangliangyun
+ *
  * @blog :http://www.javahly.com/
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/7/22

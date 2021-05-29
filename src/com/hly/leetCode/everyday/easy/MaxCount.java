@@ -2,7 +2,7 @@ package com.hly.leetCode.everyday.easy;
 
 /**
  * @author :hly
- * @github :https://github.com/huangliangyun
+ *
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2020/10/19
  * @desc : 598. 范围求和 II
