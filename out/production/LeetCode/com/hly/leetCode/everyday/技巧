@@ -1,0 +1,51 @@
+关于移位符>>和普通除以2的区别！这两个是不一样的
+https://blog.csdn.net/qq_36081539/article/details/76862451
+
+LinkedList基本用法
+双向链表
+https://blog.csdn.net/jdsjlzx/article/details/41654295
+
+正则表达式和替换
+s.toUpperCase().replaceAll("[^a-zA-Z0-9]", "")
+
+
+异或:相同为0，不同为1
+https://leetcode-cn.com/problems/single-number/
+
+A-Z 65-90
+a-z 97-122
+
+字符串转化
+String.format("%d:%02d", i, j)
+
+int long 类型的数在二进制中 1 的个数
+Integer.bitCount(i)
+
+hashMap get 为空时获取默认
+map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+
+PriorityQueue<Integer> queue = new PriorityQueue<>();
+默认小顶堆
+https://www.jianshu.com/p/f1fd9b82cb72
+
+Java split ： 或，可以使用多个分隔符
+https://blog.csdn.net/weixin_38569499/article/details/87947913
+
+一个数转化为 7 进制
+Integer.toString(num, 7);
+100 转化为7进制
+100/7=14 余 2 //2
+14/7=2 余 0 //20
+结果为 202 //20 2
+
+正则匹配
+word.matches("[a-z]+|[A-Z][a-z]*|[A-Z]+");
+//"+"表示匹配前bai面的子表达式一次或多次(大于等于1次）
+//"*"零次或多次，和+区别在于可以没有
+https://zhidao.baidu.com/question/297472922.html
+
+
+
+
+
+
