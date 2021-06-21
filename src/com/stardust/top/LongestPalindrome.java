@@ -11,22 +11,23 @@ public class LongestPalindrome {
 
     //滑动窗口
     public String longestPalindrome(String s) {
-        if (s.length() == 1) {
+        int n = s.length();
+        if (n == 1) {
             return s;
         }
-        int size = s.length();
-        while (size>=1){
-            //右指针
+        int size = n;
+        while (size >= 1) {
             int left = 0;
-            do {
-                String t = s.substring(left,left+size);
-                if(isPalind(t)){
+            while (left + size <= n) {
+                String t = s.substring(left, left + size);
+                if (isPalind(t)) {
                     return t;
                 }
                 left++;
-            }while (left+size<=s.length());
+            }
             size--;
         }
+
         return "";
     }
 
@@ -49,9 +50,9 @@ public class LongestPalindrome {
         System.out.println(longestPalindrome.isPalind("abcba"));
         System.out.println(longestPalindrome.isPalind("abcbc"));
 
-        System.out.println(longestPalindrome.longestPalindrome("babad"));
-        System.out.println(longestPalindrome.longestPalindrome("cbbd"));
-        System.out.println(longestPalindrome.longestPalindrome("bb"));
+        System.out.println(longestPalindrome.longestPalindrome("babad"));//bab
+        System.out.println(longestPalindrome.longestPalindrome("cbbd"));//bb
+        System.out.println(longestPalindrome.longestPalindrome("bb"));//bb
 
     }
 
