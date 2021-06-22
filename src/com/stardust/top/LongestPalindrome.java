@@ -17,17 +17,21 @@ public class LongestPalindrome {
         }
         int size = n;
         while (size >= 1) {
+            //右指针，每次从 0 开始
             int left = 0;
+            //刚开始，右指针+剩余长度 <= 总长度，判断最长的字符是否为回文
             while (left + size <= n) {
+                //如果是直接返回
                 String t = s.substring(left, left + size);
                 if (isPalind(t)) {
                     return t;
                 }
+                //如果不是，右指针叠加。超出范围，退出循环
                 left++;
             }
+            //长度递减
             size--;
         }
-
         return "";
     }
 
